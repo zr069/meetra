@@ -16,45 +16,71 @@
     "filter": "Filter",
     "all": "All",
     "none": "None",
-    "or": "or"
+    "or": "or",
+    "worldwide": "Worldwide",
+    "inIran": "In Iran",
+    "members": "members"
   },
   "landing": {
-    "tagline": "Where Iran Comes Alive",
-    "subtitle": "Connect with people, discover events, and build meaningful friendships across Iran and the diaspora.",
+    "tagline": "The World Meets Iran",
+    "subtitle": "Connect with people in and from Iran – for friendships, culture, business, and adventure.",
+    "heroDescription": "Whether you're in Tehran, LA, Berlin, or Dubai – find Iranians worldwide or discover Iran as a non-Iranian.",
+    "ctaIranian": "I'm Iranian",
+    "ctaExplorer": "I Want to Discover Iran",
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "features": {
+      "title": "Why Meetra?",
+      "subtitle": "A cultural bridge connecting Iran with the world",
+      "globalCommunity": {
+        "title": "Global Iran Community",
+        "description": "Find Iranians in your city or connect with locals in Tehran, Isfahan, and Shiraz."
+      },
+      "culturalBridge": {
+        "title": "Cultural Bridge",
+        "description": "Non-Iranians meet Iranians: language partners, travel tips, business contacts, and friendships."
+      },
       "events": {
-        "title": "Discover & Create Events",
-        "description": "Find exciting events near you or host your own gatherings for the community."
+        "title": "Events & Meetups",
+        "description": "Nowruz in Berlin, Tech Talks in Tehran, Concerts in LA – discover and create events worldwide."
       },
-      "people": {
-        "title": "Meet People Nearby",
-        "description": "Connect with like-minded individuals who share your interests and passions."
+      "connect": {
+        "title": "Connect Directly",
+        "description": "Chat, groups, and communities based on interests and cities."
       },
-      "chat": {
-        "title": "Real-time Messaging",
-        "description": "Stay connected with your new friends through instant messaging and group chats."
-      },
-      "groups": {
-        "title": "Join Communities",
-        "description": "Find your tribe in interest-based groups and build lasting connections."
+      "cityHubs": {
+        "title": "City Hubs",
+        "description": "Every city has its own community: Tehran, Los Angeles, Berlin, Dubai, Toronto, London."
       }
+    },
+    "stats": {
+      "iranPopulation": "People in Iran",
+      "diaspora": "Iranians Worldwide",
+      "community": "Community, No Borders"
     },
     "howItWorks": {
       "title": "How It Works",
       "step1": {
         "title": "Create Your Profile",
-        "description": "Sign up and tell us about yourself and your interests."
+        "description": "Tell us who you are and what interests you."
       },
       "step2": {
-        "title": "Discover & Connect",
-        "description": "Find events, groups, and people that match your vibe."
+        "title": "Discover",
+        "description": "Find people, events, and communities in your city or worldwide."
       },
       "step3": {
-        "title": "Meet & Enjoy",
-        "description": "Attend events, make friends, and create unforgettable memories."
+        "title": "Connect",
+        "description": "Chat, meet up, experience Iran from anywhere."
       }
+    },
+    "cityHubs": {
+      "title": "City Hubs",
+      "subtitle": "Join your local community and connect with Iranians and Iran enthusiasts in your city."
+    },
+    "cta": {
+      "title": "Ready to Connect?",
+      "subtitle": "Join thousands of people building bridges between Iran and the world.",
+      "button": "Join Meetra Now"
     }
   },
   "auth": {
@@ -81,6 +107,35 @@
     "name": {
       "title": "What's Your Name?",
       "placeholder": "Your display name"
+    },
+    "identity": {
+      "title": "Tell us about yourself",
+      "subtitle": "This helps us connect you with the right people",
+      "iranian": "I'm Iranian",
+      "halfIranian": "I'm Half-Iranian",
+      "explorer": "I'm interested in Iran"
+    },
+    "seeking": {
+      "title": "What are you looking for?",
+      "subtitle": "Select all that apply",
+      "friendships": "Friendships",
+      "business": "Business Contacts",
+      "languagePartners": "Language Partners",
+      "travelBuddies": "Travel Buddies",
+      "events": "Events & Meetups",
+      "dating": "Dating"
+    },
+    "languages": {
+      "title": "Languages you speak",
+      "subtitle": "Select all that apply",
+      "farsi": "Farsi",
+      "english": "English",
+      "german": "German",
+      "french": "French",
+      "arabic": "Arabic",
+      "turkish": "Turkish",
+      "spanish": "Spanish",
+      "other": "Other"
     },
     "location": {
       "title": "Where Are You Located?",
@@ -116,13 +171,18 @@
     "createEvent": "Create",
     "chat": "Chat",
     "profile": "Profile",
-    "logout": "Log Out"
+    "logout": "Log Out",
+    "hubs": "City Hubs"
   },
   "feed": {
     "title": "Your Feed",
     "empty": "Nothing here yet. Start exploring!",
     "nearbyEvents": "Events Near You",
+    "eventsInIran": "Events in Iran",
+    "eventsWorldwide": "Events Worldwide",
     "newPeople": "New People",
+    "newPeopleNearby": "People Near You",
+    "newPeopleWorldwide": "People Worldwide",
     "groupActivity": "Group Activity"
   },
   "events": {
@@ -130,6 +190,8 @@
     "create": "Create Event",
     "discover": "Discover Events",
     "nearby": "Nearby",
+    "inIran": "In Iran",
+    "worldwide": "Worldwide",
     "upcoming": "Upcoming",
     "past": "Past",
     "myEvents": "My Events",
@@ -157,11 +219,13 @@
       "outdoor": "Outdoor",
       "networking": "Networking",
       "workshop": "Workshop",
+      "nowruz": "Nowruz",
       "other": "Other"
     }
   },
   "discover": {
     "title": "Discover People",
+    "subtitle": "Find Iranians and Iran enthusiasts worldwide",
     "connect": "Connect",
     "pass": "Pass",
     "match": "It's a Match!",
@@ -170,7 +234,21 @@
     "keepDiscovering": "Keep Discovering",
     "filters": "Filters",
     "age": "Age Range",
-    "distance": "Distance"
+    "distance": "Distance",
+    "tabs": {
+      "nearby": "Nearby",
+      "inIran": "In Iran",
+      "worldwide": "Worldwide"
+    },
+    "filterBy": {
+      "city": "City",
+      "country": "Country",
+      "identity": "Identity",
+      "iranians": "Iranians",
+      "explorers": "Iran Enthusiasts",
+      "interests": "Interests",
+      "languages": "Languages"
+    }
   },
   "chat": {
     "title": "Messages",
@@ -199,6 +277,16 @@
       "uploadImage": "Upload Group Image"
     }
   },
+  "hubs": {
+    "title": "City Hubs",
+    "subtitle": "Find your local community",
+    "events": "Events",
+    "people": "People",
+    "groups": "Groups",
+    "join": "Join Hub",
+    "joined": "Joined",
+    "topCities": "Top Cities"
+  },
   "profile": {
     "title": "Profile",
     "editProfile": "Edit Profile",
@@ -209,6 +297,9 @@
     "bio": "Bio",
     "interests": "Interests",
     "location": "Location",
+    "identity": "Identity",
+    "seeking": "Looking for",
+    "languages": "Languages",
     "memberSince": "Member since {date}"
   },
   "settings": {

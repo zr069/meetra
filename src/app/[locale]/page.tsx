@@ -19,7 +19,10 @@ export default async function HomePage({ params }: Props) {
       <main className="flex-1">
         <HeroSection />
         <FeaturesSection />
+        <StatsSection />
         <HowItWorksSection />
+        <CityHubsSection />
+        <CTASection />
       </main>
       <Footer />
     </div>
@@ -33,54 +36,63 @@ function HeroSection() {
     <section className="relative overflow-hidden bg-gradient-to-br from-white via-[var(--surface)] to-[var(--primary)]/5 py-20 sm:py-32">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -end-40 w-80 h-80 bg-[var(--primary)]/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-40 -start-40 w-80 h-80 bg-[var(--secondary)]/10 rounded-full blur-3xl" />
+        <div className="absolute -top-40 -end-40 w-96 h-96 bg-[var(--primary)]/10 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -start-40 w-96 h-96 bg-[var(--secondary)]/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 start-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-br from-[var(--primary)]/5 to-transparent rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] mb-6">
+        <div className="text-center max-w-4xl mx-auto">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[var(--text-primary)] mb-6 tracking-tight">
             {t('tagline')}
           </h1>
-          <p className="text-lg sm:text-xl text-[var(--text-secondary)] mb-10 max-w-2xl mx-auto">
+          <p className="text-xl sm:text-2xl text-[var(--text-secondary)] mb-4 max-w-3xl mx-auto leading-relaxed">
             {t('subtitle')}
           </p>
+          <p className="text-lg text-[var(--text-secondary)] mb-10 max-w-2xl mx-auto">
+            {t('heroDescription')}
+          </p>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/auth/register">
-              <Button size="lg" className="min-w-[200px]">
-                {t('getStarted')}
+            <Link href="/auth/register?type=iranian">
+              <Button size="lg" className="min-w-[220px] text-lg py-4">
+                {t('ctaIranian')}
               </Button>
             </Link>
-            <Link href="#features">
-              <Button variant="outline" size="lg" className="min-w-[200px]">
-                {t('learnMore')}
+            <Link href="/auth/register?type=explorer">
+              <Button variant="outline" size="lg" className="min-w-[220px] text-lg py-4">
+                {t('ctaExplorer')}
               </Button>
             </Link>
           </div>
         </div>
 
-        {/* Hero image placeholder */}
-        <div className="mt-16 relative">
-          <div className="aspect-[16/9] max-w-4xl mx-auto rounded-2xl bg-gradient-to-br from-[var(--primary)]/20 to-[var(--secondary)]/20 shadow-2xl overflow-hidden flex items-center justify-center">
-            <div className="text-center p-8">
-              <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-[var(--primary)]/20 flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-12 h-12 text-[var(--primary)]"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
-                  />
-                </svg>
+        {/* Hero visual */}
+        <div className="mt-20 relative">
+          <div className="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+            {/* City cards preview */}
+            {['Tehran', 'Berlin', 'LA'].map((city, index) => (
+              <div
+                key={city}
+                className={`aspect-[4/5] rounded-2xl bg-gradient-to-br ${
+                  index === 0 ? 'from-[var(--primary)]/30 to-[var(--primary)]/10' :
+                  index === 1 ? 'from-[var(--secondary)]/30 to-[var(--secondary)]/10' :
+                  'from-[var(--primary)]/20 to-[var(--secondary)]/20'
+                } shadow-xl flex flex-col items-center justify-center p-6 ${
+                  index === 1 ? 'scale-110 z-10' : ''
+                }`}
+              >
+                <div className="w-16 h-16 rounded-full bg-white/50 flex items-center justify-center mb-3">
+                  <span className="text-2xl">
+                    {index === 0 ? '🇮🇷' : index === 1 ? '🇩🇪' : '🇺🇸'}
+                  </span>
+                </div>
+                <p className="text-[var(--text-primary)] font-semibold">{city}</p>
+                <p className="text-sm text-[var(--text-secondary)]">
+                  {index === 0 ? '2.5k members' : index === 1 ? '1.8k members' : '3.2k members'}
+                </p>
               </div>
-              <p className="text-[var(--text-secondary)] font-medium">App Preview</p>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -93,15 +105,17 @@ function FeaturesSection() {
 
   const features = [
     {
-      key: 'events',
+      key: 'globalCommunity',
+      emoji: '🌍',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
         </svg>
       ),
     },
     {
-      key: 'people',
+      key: 'culturalBridge',
+      emoji: '🤝',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
@@ -109,7 +123,17 @@ function FeaturesSection() {
       ),
     },
     {
-      key: 'chat',
+      key: 'events',
+      emoji: '🎉',
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+        </svg>
+      ),
+    },
+    {
+      key: 'connect',
+      emoji: '💬',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
           <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
@@ -117,10 +141,12 @@ function FeaturesSection() {
       ),
     },
     {
-      key: 'groups',
+      key: 'cityHubs',
+      emoji: '🗺️',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
         </svg>
       ),
     },
@@ -129,14 +155,28 @@ function FeaturesSection() {
   return (
     <section id="features" className="py-20 sm:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature) => (
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-4">
+            {t('title')}
+          </h2>
+          <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
+            {t('subtitle')}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
             <div
               key={feature.key}
-              className="group p-6 rounded-2xl bg-[var(--surface)] hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[var(--border)]"
+              className={`group p-8 rounded-2xl bg-[var(--surface)] hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[var(--border)] ${
+                index === 4 ? 'md:col-span-2 lg:col-span-1' : ''
+              }`}
             >
-              <div className="w-14 h-14 rounded-xl bg-[var(--primary)]/10 text-[var(--primary)] flex items-center justify-center mb-4 group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
-                {feature.icon}
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-14 h-14 rounded-xl bg-[var(--primary)]/10 text-[var(--primary)] flex items-center justify-center group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
+                  {feature.icon}
+                </div>
+                <span className="text-3xl">{feature.emoji}</span>
               </div>
               <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2">
                 {t(`${feature.key}.title`)}
@@ -144,6 +184,32 @@ function FeaturesSection() {
               <p className="text-[var(--text-secondary)]">
                 {t(`${feature.key}.description`)}
               </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function StatsSection() {
+  const t = useTranslations('landing.stats');
+
+  const stats = [
+    { key: 'iranPopulation', value: '88M+', emoji: '🇮🇷' },
+    { key: 'diaspora', value: '4M+', emoji: '🌍' },
+    { key: 'community', value: '1', emoji: '🤝' },
+  ];
+
+  return (
+    <section className="py-16 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          {stats.map((stat) => (
+            <div key={stat.key} className="text-white">
+              <span className="text-4xl mb-2 block">{stat.emoji}</span>
+              <p className="text-4xl sm:text-5xl font-bold mb-2">{stat.value}</p>
+              <p className="text-lg opacity-90">{t(stat.key)}</p>
             </div>
           ))}
         </div>
@@ -219,12 +285,73 @@ function HowItWorksSection() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  );
+}
 
-        {/* CTA */}
-        <div className="mt-16 text-center">
+function CityHubsSection() {
+  const t = useTranslations('landing.cityHubs');
+
+  const cities = [
+    { name: 'Tehran', country: 'Iran', flag: '🇮🇷', members: '2.5k' },
+    { name: 'Los Angeles', country: 'USA', flag: '🇺🇸', members: '3.2k' },
+    { name: 'Berlin', country: 'Germany', flag: '🇩🇪', members: '1.8k' },
+    { name: 'Dubai', country: 'UAE', flag: '🇦🇪', members: '1.5k' },
+    { name: 'Toronto', country: 'Canada', flag: '🇨🇦', members: '2.1k' },
+    { name: 'London', country: 'UK', flag: '🇬🇧', members: '1.9k' },
+    { name: 'Istanbul', country: 'Turkey', flag: '🇹🇷', members: '1.2k' },
+    { name: 'Stockholm', country: 'Sweden', flag: '🇸🇪', members: '0.8k' },
+  ];
+
+  return (
+    <section className="py-20 sm:py-32 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-4">
+            {t('title')}
+          </h2>
+          <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
+            {t('subtitle')}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          {cities.map((city) => (
+            <Link
+              key={city.name}
+              href={`/hubs/${city.name.toLowerCase().replace(' ', '-')}`}
+              className="group p-4 sm:p-6 rounded-xl bg-[var(--surface)] hover:bg-white hover:shadow-lg transition-all border border-transparent hover:border-[var(--border)] text-center"
+            >
+              <span className="text-3xl sm:text-4xl mb-2 block">{city.flag}</span>
+              <h3 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--primary)] transition-colors">
+                {city.name}
+              </h3>
+              <p className="text-sm text-[var(--text-secondary)]">{city.members} members</p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CTASection() {
+  const t = useTranslations('landing.cta');
+
+  return (
+    <section className="py-20 sm:py-32 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+          {t('title')}
+        </h2>
+        <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+          {t('subtitle')}
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/auth/register">
-            <Button size="lg">
-              {t('title')} →
+            <Button size="lg" className="min-w-[220px] bg-white text-[var(--primary)] hover:bg-white/90">
+              {t('button')}
             </Button>
           </Link>
         </div>
