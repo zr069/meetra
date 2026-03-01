@@ -115,7 +115,8 @@
     "discover": "Discover",
     "createEvent": "Create",
     "chat": "Chat",
-    "profile": "Profile"
+    "profile": "Profile",
+    "logout": "Log Out"
   },
   "feed": {
     "title": "Your Feed",

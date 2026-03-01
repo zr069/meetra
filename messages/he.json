@@ -115,7 +115,8 @@
     "discover": "גלה",
     "createEvent": "צור",
     "chat": "צ'אט",
-    "profile": "פרופיל"
+    "profile": "פרופיל",
+    "logout": "התנתקות"
   },
   "feed": {
     "title": "הפיד שלך",

@@ -115,7 +115,8 @@
     "discover": "Upptäck",
     "createEvent": "Skapa",
     "chat": "Chatt",
-    "profile": "Profil"
+    "profile": "Profil",
+    "logout": "Logga Ut"
   },
   "feed": {
     "title": "Ditt Flöde",

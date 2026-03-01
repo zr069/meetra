@@ -115,7 +115,8 @@
     "discover": "Keşfet",
     "createEvent": "Oluştur",
     "chat": "Sohbet",
-    "profile": "Profil"
+    "profile": "Profil",
+    "logout": "Çıkış Yap"
   },
   "feed": {
     "title": "Akışın",

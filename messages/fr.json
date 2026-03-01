@@ -115,7 +115,8 @@
     "discover": "Découvrir",
     "createEvent": "Créer",
     "chat": "Messages",
-    "profile": "Profil"
+    "profile": "Profil",
+    "logout": "Déconnexion"
   },
   "feed": {
     "title": "Votre Fil",

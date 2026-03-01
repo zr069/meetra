@@ -115,7 +115,8 @@
     "discover": "کشف",
     "createEvent": "ایجاد",
     "chat": "چت",
-    "profile": "پروفایل"
+    "profile": "پروفایل",
+    "logout": "خروج"
   },
   "feed": {
     "title": "فید شما",

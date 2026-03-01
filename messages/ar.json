@@ -115,7 +115,8 @@
     "discover": "اكتشف",
     "createEvent": "إنشاء",
     "chat": "محادثة",
-    "profile": "الملف الشخصي"
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج"
   },
   "feed": {
     "title": "خلاصتك",

@@ -115,7 +115,8 @@
     "discover": "Ontdekken",
     "createEvent": "Maken",
     "chat": "Chat",
-    "profile": "Profiel"
+    "profile": "Profil",
+    "logout": "Uitloggen"
   },
   "feed": {
     "title": "Je Feed",
