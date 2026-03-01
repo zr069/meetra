@@ -25,8 +25,8 @@
     "tagline": "De Wereld Ontmoet Iran",
     "subtitle": "Verbind met mensen in en uit Iran – voor vriendschappen, cultuur, zaken en avontuur.",
     "heroDescription": "Of je nu in Teheran, LA, Berlijn of Dubai bent – vind Iraniërs wereldwijd of ontdek Iran als niet-Iraniër.",
-    "ctaIranian": "Ik ben Iraniër",
-    "ctaExplorer": "Ik wil Iran Ontdekken",
+    "ctaButton": "Gratis lid worden",
+    "ctaSubtext": "Gratis. Voor altijd.",
     "getStarted": "Aan de Slag",
     "learnMore": "Meer Info",
     "features": {
@@ -39,6 +39,10 @@
       "culturalBridge": {
         "title": "Culturele Brug",
         "description": "Niet-Iraniërs ontmoeten Iraniërs: taalpartners, reistips, zakelijke contacten en vriendschappen."
+      },
+      "business": {
+        "title": "Business & Netwerken",
+        "description": "Vind zakenpartners, investeerders en professionals in en uit Iran. Van startups tot handel."
       },
       "events": {
         "title": "Evenementen & Ontmoetingen",
@@ -116,14 +120,14 @@
       "explorer": "Ik ben geïnteresseerd in Iran"
     },
     "seeking": {
-      "title": "Wat zoek je?",
+      "title": "Wat interesseert je?",
       "subtitle": "Selecteer alles wat van toepassing is",
       "friendships": "Vriendschappen",
-      "business": "Zakelijke Contacten",
-      "languagePartners": "Taalpartners",
-      "travelBuddies": "Reisgenoten",
-      "events": "Evenementen & Ontmoetingen",
-      "dating": "Daten"
+      "cultureLanguage": "Cultuur & Taal",
+      "businessNetworking": "Business & Netwerken",
+      "eventsParties": "Evenementen & Feesten",
+      "travel": "Reizen",
+      "studiesCareer": "Studie & Carrière"
     },
     "languages": {
       "title": "Talen die je spreekt",

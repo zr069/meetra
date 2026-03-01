@@ -25,8 +25,8 @@
     "tagline": "Le Monde Rencontre l'Iran",
     "subtitle": "Connectez-vous avec des personnes en Iran et d'Iran – pour l'amitié, la culture, les affaires et l'aventure.",
     "heroDescription": "Que vous soyez à Téhéran, LA, Berlin ou Dubaï – trouvez des Iraniens dans le monde entier ou découvrez l'Iran en tant que non-Iranien.",
-    "ctaIranian": "Je suis Iranien(ne)",
-    "ctaExplorer": "Je veux Découvrir l'Iran",
+    "ctaButton": "Rejoindre gratuitement",
+    "ctaSubtext": "Gratuit. Pour toujours.",
     "getStarted": "Commencer",
     "learnMore": "En savoir plus",
     "features": {
@@ -39,6 +39,10 @@
       "culturalBridge": {
         "title": "Pont Culturel",
         "description": "Les non-Iraniens rencontrent les Iraniens: partenaires linguistiques, conseils de voyage, contacts d'affaires et amitiés."
+      },
+      "business": {
+        "title": "Business & Networking",
+        "description": "Trouvez des partenaires commerciaux, investisseurs et professionnels en Iran et d'Iran. Des startups au commerce."
       },
       "events": {
         "title": "Événements & Rencontres",
@@ -116,14 +120,14 @@
       "explorer": "Je m'intéresse à l'Iran"
     },
     "seeking": {
-      "title": "Que recherchez-vous?",
+      "title": "Qu'est-ce qui vous intéresse?",
       "subtitle": "Sélectionnez tout ce qui s'applique",
       "friendships": "Amitiés",
-      "business": "Contacts Professionnels",
-      "languagePartners": "Partenaires Linguistiques",
-      "travelBuddies": "Compagnons de Voyage",
-      "events": "Événements & Rencontres",
-      "dating": "Rencontres Amoureuses"
+      "cultureLanguage": "Culture & Langue",
+      "businessNetworking": "Business & Networking",
+      "eventsParties": "Événements & Fêtes",
+      "travel": "Voyage",
+      "studiesCareer": "Études & Carrière"
     },
     "languages": {
       "title": "Langues que vous parlez",
