@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "done": "Done",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "or": "or"
+  },
+  "landing": {
+    "tagline": "Where Iran Comes Alive",
+    "subtitle": "Connect with people, discover events, and build meaningful friendships across Iran and the diaspora.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "features": {
+      "events": {
+        "title": "Discover & Create Events",
+        "description": "Find exciting events near you or host your own gatherings for the community."
+      },
+      "people": {
+        "title": "Meet People Nearby",
+        "description": "Connect with like-minded individuals who share your interests and passions."
+      },
+      "chat": {
+        "title": "Real-time Messaging",
+        "description": "Stay connected with your new friends through instant messaging and group chats."
+      },
+      "groups": {
+        "title": "Join Communities",
+        "description": "Find your tribe in interest-based groups and build lasting connections."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Create Your Profile",
+        "description": "Sign up and tell us about yourself and your interests."
+      },
+      "step2": {
+        "title": "Discover & Connect",
+        "description": "Find events, groups, and people that match your vibe."
+      },
+      "step3": {
+        "title": "Meet & Enjoy",
+        "description": "Attend events, make friends, and create unforgettable memories."
+      }
+    }
+  },
+  "auth": {
+    "login": "Log In",
+    "register": "Sign Up",
+    "logout": "Log Out",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "continueWithEmail": "Continue with Email",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "termsAgreement": "By signing up, you agree to our Terms of Service and Privacy Policy."
+  },
+  "onboarding": {
+    "welcome": "Welcome to Meetra!",
+    "profilePicture": {
+      "title": "Add a Profile Picture",
+      "subtitle": "Help others recognize you"
+    },
+    "name": {
+      "title": "What's Your Name?",
+      "placeholder": "Your display name"
+    },
+    "location": {
+      "title": "Where Are You Located?",
+      "subtitle": "This helps us show you nearby events and people",
+      "selectCity": "Select your city"
+    },
+    "interests": {
+      "title": "What Are You Into?",
+      "subtitle": "Select your interests to find like-minded people",
+      "music": "Music",
+      "sports": "Sports",
+      "art": "Art & Culture",
+      "cooking": "Cooking",
+      "gaming": "Gaming",
+      "travel": "Travel",
+      "photography": "Photography",
+      "tech": "Technology",
+      "fitness": "Fitness",
+      "movies": "Movies",
+      "books": "Books",
+      "fashion": "Fashion",
+      "nature": "Nature",
+      "nightlife": "Nightlife"
+    },
+    "birthday": {
+      "title": "When's Your Birthday?",
+      "subtitle": "You must be 18+ to use Meetra"
+    }
+  },
+  "nav": {
+    "feed": "Home",
+    "discover": "Discover",
+    "createEvent": "Create",
+    "chat": "Chat",
+    "profile": "Profile"
+  },
+  "feed": {
+    "title": "Your Feed",
+    "empty": "Nothing here yet. Start exploring!",
+    "nearbyEvents": "Events Near You",
+    "newPeople": "New People",
+    "groupActivity": "Group Activity"
+  },
+  "events": {
+    "title": "Events",
+    "create": "Create Event",
+    "discover": "Discover Events",
+    "nearby": "Nearby",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "myEvents": "My Events",
+    "going": "Going",
+    "interested": "Interested",
+    "participants": "participants",
+    "noEvents": "No events found",
+    "form": {
+      "title": "Event Title",
+      "description": "Description",
+      "date": "Date & Time",
+      "location": "Location",
+      "category": "Category",
+      "maxParticipants": "Max Participants",
+      "isPublic": "Public Event",
+      "uploadImage": "Upload Cover Image"
+    },
+    "categories": {
+      "party": "Party",
+      "concert": "Concert",
+      "sport": "Sport",
+      "meetup": "Meetup",
+      "culture": "Culture",
+      "food": "Food & Drinks",
+      "outdoor": "Outdoor",
+      "networking": "Networking",
+      "workshop": "Workshop",
+      "other": "Other"
+    }
+  },
+  "discover": {
+    "title": "Discover People",
+    "connect": "Connect",
+    "pass": "Pass",
+    "match": "It's a Match!",
+    "matchMessage": "You and {name} are now connected. Start a conversation!",
+    "sendMessage": "Send Message",
+    "keepDiscovering": "Keep Discovering",
+    "filters": "Filters",
+    "age": "Age Range",
+    "distance": "Distance"
+  },
+  "chat": {
+    "title": "Messages",
+    "noMessages": "No messages yet",
+    "startConversation": "Start a conversation with your connections",
+    "typePlaceholder": "Type a message...",
+    "send": "Send",
+    "online": "Online",
+    "offline": "Offline",
+    "lastSeen": "Last seen {time}"
+  },
+  "groups": {
+    "title": "Groups",
+    "create": "Create Group",
+    "discover": "Discover Groups",
+    "myGroups": "My Groups",
+    "join": "Join",
+    "leave": "Leave",
+    "members": "members",
+    "noGroups": "No groups found",
+    "form": {
+      "name": "Group Name",
+      "description": "Description",
+      "category": "Category",
+      "isPublic": "Public Group",
+      "uploadImage": "Upload Group Image"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "settings": "Settings",
+    "myEvents": "My Events",
+    "myGroups": "My Groups",
+    "connections": "Connections",
+    "bio": "Bio",
+    "interests": "Interests",
+    "location": "Location",
+    "memberSince": "Member since {date}"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "deleteAccount": "Delete Account",
+    "deleteConfirm": "Are you sure you want to delete your account? This action cannot be undone."
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "© {year} Meetra. All rights reserved."
+  }
+}

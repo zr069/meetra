@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "حاول مرة أخرى",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "share": "مشاركة",
+    "back": "رجوع",
+    "next": "التالي",
+    "skip": "تخطي",
+    "done": "تم",
+    "search": "بحث",
+    "filter": "تصفية",
+    "all": "الكل",
+    "none": "لا شيء",
+    "or": "أو"
+  },
+  "landing": {
+    "tagline": "حيث تنبض إيران بالحياة",
+    "subtitle": "تواصل مع الناس، اكتشف الفعاليات، وابنِ صداقات ذات معنى في جميع أنحاء إيران والشتات.",
+    "getStarted": "ابدأ الآن",
+    "learnMore": "اعرف المزيد",
+    "features": {
+      "events": {
+        "title": "اكتشف وأنشئ الفعاليات",
+        "description": "ابحث عن فعاليات مثيرة بالقرب منك أو نظم تجمعاتك الخاصة."
+      },
+      "people": {
+        "title": "تعرف على أشخاص قريبين",
+        "description": "تواصل مع أشخاص يشاركونك اهتماماتك وشغفك."
+      },
+      "chat": {
+        "title": "رسائل فورية",
+        "description": "ابقَ على تواصل مع أصدقائك الجدد من خلال الرسائل الفورية والمحادثات الجماعية."
+      },
+      "groups": {
+        "title": "انضم إلى المجتمعات",
+        "description": "جد مجموعتك في مجتمعات تشاركك الاهتمامات وابنِ علاقات دائمة."
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "step1": {
+        "title": "أنشئ ملفك الشخصي",
+        "description": "سجل وأخبرنا عن نفسك واهتماماتك."
+      },
+      "step2": {
+        "title": "اكتشف وتواصل",
+        "description": "جد الفعاليات والمجموعات والأشخاص الذين يناسبونك."
+      },
+      "step3": {
+        "title": "التقِ واستمتع",
+        "description": "شارك في الفعاليات، كوّن صداقات، واصنع ذكريات لا تُنسى."
+      }
+    }
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "continueWithGoogle": "المتابعة مع جوجل",
+    "continueWithApple": "المتابعة مع آبل",
+    "continueWithEmail": "المتابعة بالبريد الإلكتروني",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "termsAgreement": "بالتسجيل، توافق على شروط الخدمة وسياسة الخصوصية."
+  },
+  "onboarding": {
+    "welcome": "مرحباً بك في ميترا!",
+    "profilePicture": {
+      "title": "أضف صورة شخصية",
+      "subtitle": "ساعد الآخرين على التعرف عليك"
+    },
+    "name": {
+      "title": "ما اسمك؟",
+      "placeholder": "اسمك المعروض"
+    },
+    "location": {
+      "title": "أين تتواجد؟",
+      "subtitle": "هذا يساعدنا في عرض الفعاليات والأشخاص القريبين منك",
+      "selectCity": "اختر مدينتك"
+    },
+    "interests": {
+      "title": "ما هي اهتماماتك؟",
+      "subtitle": "اختر اهتماماتك للعثور على أشخاص مشابهين",
+      "music": "موسيقى",
+      "sports": "رياضة",
+      "art": "فن وثقافة",
+      "cooking": "طبخ",
+      "gaming": "ألعاب",
+      "travel": "سفر",
+      "photography": "تصوير",
+      "tech": "تكنولوجيا",
+      "fitness": "لياقة",
+      "movies": "أفلام",
+      "books": "كتب",
+      "fashion": "موضة",
+      "nature": "طبيعة",
+      "nightlife": "حياة ليلية"
+    },
+    "birthday": {
+      "title": "متى عيد ميلادك؟",
+      "subtitle": "يجب أن يكون عمرك 18 عاماً أو أكثر"
+    }
+  },
+  "nav": {
+    "feed": "الرئيسية",
+    "discover": "اكتشف",
+    "createEvent": "إنشاء",
+    "chat": "محادثة",
+    "profile": "الملف الشخصي"
+  },
+  "feed": {
+    "title": "خلاصتك",
+    "empty": "لا شيء هنا بعد. ابدأ الاستكشاف!",
+    "nearbyEvents": "فعاليات قريبة منك",
+    "newPeople": "أشخاص جدد",
+    "groupActivity": "نشاط المجموعات"
+  },
+  "events": {
+    "title": "الفعاليات",
+    "create": "إنشاء فعالية",
+    "discover": "اكتشف الفعاليات",
+    "nearby": "قريب",
+    "upcoming": "قادم",
+    "past": "سابق",
+    "myEvents": "فعالياتي",
+    "going": "سأحضر",
+    "interested": "مهتم",
+    "participants": "مشارك",
+    "noEvents": "لم يتم العثور على فعاليات",
+    "form": {
+      "title": "عنوان الفعالية",
+      "description": "الوصف",
+      "date": "التاريخ والوقت",
+      "location": "الموقع",
+      "category": "الفئة",
+      "maxParticipants": "الحد الأقصى للمشاركين",
+      "isPublic": "فعالية عامة",
+      "uploadImage": "تحميل صورة الغلاف"
+    },
+    "categories": {
+      "party": "حفلة",
+      "concert": "حفل موسيقي",
+      "sport": "رياضة",
+      "meetup": "لقاء",
+      "culture": "ثقافة",
+      "food": "طعام ومشروبات",
+      "outdoor": "في الهواء الطلق",
+      "networking": "تواصل مهني",
+      "workshop": "ورشة عمل",
+      "other": "أخرى"
+    }
+  },
+  "discover": {
+    "title": "اكتشف الأشخاص",
+    "connect": "تواصل",
+    "pass": "تجاوز",
+    "match": "توافق!",
+    "matchMessage": "أنت و{name} متصلان الآن. ابدأ محادثة!",
+    "sendMessage": "إرسال رسالة",
+    "keepDiscovering": "استمر في الاكتشاف",
+    "filters": "تصفية",
+    "age": "الفئة العمرية",
+    "distance": "المسافة"
+  },
+  "chat": {
+    "title": "الرسائل",
+    "noMessages": "لا توجد رسائل بعد",
+    "startConversation": "ابدأ محادثة مع اتصالاتك",
+    "typePlaceholder": "اكتب رسالة...",
+    "send": "إرسال",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "lastSeen": "آخر ظهور {time}"
+  },
+  "groups": {
+    "title": "المجموعات",
+    "create": "إنشاء مجموعة",
+    "discover": "اكتشف المجموعات",
+    "myGroups": "مجموعاتي",
+    "join": "انضمام",
+    "leave": "مغادرة",
+    "members": "عضو",
+    "noGroups": "لم يتم العثور على مجموعات",
+    "form": {
+      "name": "اسم المجموعة",
+      "description": "الوصف",
+      "category": "الفئة",
+      "isPublic": "مجموعة عامة",
+      "uploadImage": "تحميل صورة المجموعة"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "editProfile": "تعديل الملف الشخصي",
+    "settings": "الإعدادات",
+    "myEvents": "فعالياتي",
+    "myGroups": "مجموعاتي",
+    "connections": "الاتصالات",
+    "bio": "نبذة",
+    "interests": "الاهتمامات",
+    "location": "الموقع",
+    "memberSince": "عضو منذ {date}"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "privacy": "الخصوصية",
+    "deleteAccount": "حذف الحساب",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "footer": {
+    "about": "حول",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "contact": "اتصل بنا",
+    "copyright": "© {year} ميترا. جميع الحقوق محفوظة."
+  }
+}

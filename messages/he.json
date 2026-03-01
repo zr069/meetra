@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "טוען...",
+    "error": "משהו השתבש",
+    "retry": "נסה שוב",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "share": "שתף",
+    "back": "חזרה",
+    "next": "הבא",
+    "skip": "דלג",
+    "done": "סיום",
+    "search": "חיפוש",
+    "filter": "סינון",
+    "all": "הכל",
+    "none": "אף אחד",
+    "or": "או"
+  },
+  "landing": {
+    "tagline": "איפה שאיראן מתעוררת לחיים",
+    "subtitle": "התחבר לאנשים, גלה אירועים, ובנה חברויות משמעותיות ברחבי איראן והתפוצות.",
+    "getStarted": "התחל עכשיו",
+    "learnMore": "למד עוד",
+    "features": {
+      "events": {
+        "title": "גלה וצור אירועים",
+        "description": "מצא אירועים מרגשים בקרבתך או ארגן מפגשים משלך."
+      },
+      "people": {
+        "title": "פגוש אנשים בקרבתך",
+        "description": "התחבר לאנשים בעלי דעות דומות שחולקים את התחומי העניין שלך."
+      },
+      "chat": {
+        "title": "הודעות בזמן אמת",
+        "description": "הישאר מחובר לחברים החדשים שלך דרך הודעות מיידיות וצ'אטים קבוצתיים."
+      },
+      "groups": {
+        "title": "הצטרף לקהילות",
+        "description": "מצא את השבט שלך בקבוצות מבוססות עניין ובנה קשרים מתמשכים."
+      }
+    },
+    "howItWorks": {
+      "title": "איך זה עובד",
+      "step1": {
+        "title": "צור את הפרופיל שלך",
+        "description": "הירשם וספר לנו על עצמך ועל תחומי העניין שלך."
+      },
+      "step2": {
+        "title": "גלה והתחבר",
+        "description": "מצא אירועים, קבוצות ואנשים שמתאימים לך."
+      },
+      "step3": {
+        "title": "פגוש ותהנה",
+        "description": "השתתף באירועים, מצא חברים, וצור זיכרונות בלתי נשכחים."
+      }
+    }
+  },
+  "auth": {
+    "login": "התחברות",
+    "register": "הרשמה",
+    "logout": "התנתקות",
+    "continueWithGoogle": "המשך עם גוגל",
+    "continueWithApple": "המשך עם אפל",
+    "continueWithEmail": "המשך עם אימייל",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "confirmPassword": "אשר סיסמה",
+    "forgotPassword": "שכחת סיסמה?",
+    "noAccount": "אין לך חשבון?",
+    "hasAccount": "כבר יש לך חשבון?",
+    "termsAgreement": "בהרשמה, את/ה מסכים/ה לתנאי השימוש ומדיניות הפרטיות שלנו."
+  },
+  "onboarding": {
+    "welcome": "ברוך הבא למיטרה!",
+    "profilePicture": {
+      "title": "הוסף תמונת פרופיל",
+      "subtitle": "עזור לאחרים לזהות אותך"
+    },
+    "name": {
+      "title": "מה שמך?",
+      "placeholder": "שם התצוגה שלך"
+    },
+    "location": {
+      "title": "איפה את/ה נמצא/ת?",
+      "subtitle": "זה עוזר לנו להציג לך אירועים ואנשים בקרבתך",
+      "selectCity": "בחר את העיר שלך"
+    },
+    "interests": {
+      "title": "מה מעניין אותך?",
+      "subtitle": "בחר את תחומי העניין שלך כדי למצוא אנשים דומים",
+      "music": "מוזיקה",
+      "sports": "ספורט",
+      "art": "אמנות ותרבות",
+      "cooking": "בישול",
+      "gaming": "משחקים",
+      "travel": "טיולים",
+      "photography": "צילום",
+      "tech": "טכנולוגיה",
+      "fitness": "כושר",
+      "movies": "סרטים",
+      "books": "ספרים",
+      "fashion": "אופנה",
+      "nature": "טבע",
+      "nightlife": "חיי לילה"
+    },
+    "birthday": {
+      "title": "מתי יום ההולדת שלך?",
+      "subtitle": "עליך להיות בן/בת 18 ומעלה"
+    }
+  },
+  "nav": {
+    "feed": "בית",
+    "discover": "גלה",
+    "createEvent": "צור",
+    "chat": "צ'אט",
+    "profile": "פרופיל"
+  },
+  "feed": {
+    "title": "הפיד שלך",
+    "empty": "עדיין אין כלום כאן. התחל לחקור!",
+    "nearbyEvents": "אירועים בקרבתך",
+    "newPeople": "אנשים חדשים",
+    "groupActivity": "פעילות קבוצתית"
+  },
+  "events": {
+    "title": "אירועים",
+    "create": "צור אירוע",
+    "discover": "גלה אירועים",
+    "nearby": "בקרבת מקום",
+    "upcoming": "קרובים",
+    "past": "עברו",
+    "myEvents": "האירועים שלי",
+    "going": "אגיע",
+    "interested": "מעוניין",
+    "participants": "משתתפים",
+    "noEvents": "לא נמצאו אירועים",
+    "form": {
+      "title": "שם האירוע",
+      "description": "תיאור",
+      "date": "תאריך ושעה",
+      "location": "מיקום",
+      "category": "קטגוריה",
+      "maxParticipants": "מקסימום משתתפים",
+      "isPublic": "אירוע ציבורי",
+      "uploadImage": "העלה תמונת שער"
+    },
+    "categories": {
+      "party": "מסיבה",
+      "concert": "הופעה",
+      "sport": "ספורט",
+      "meetup": "מפגש",
+      "culture": "תרבות",
+      "food": "אוכל ושתייה",
+      "outdoor": "פעילות חוץ",
+      "networking": "נטוורקינג",
+      "workshop": "סדנה",
+      "other": "אחר"
+    }
+  },
+  "discover": {
+    "title": "גלה אנשים",
+    "connect": "התחבר",
+    "pass": "דלג",
+    "match": "יש התאמה!",
+    "matchMessage": "את/ה ו-{name} מחוברים עכשיו. התחל שיחה!",
+    "sendMessage": "שלח הודעה",
+    "keepDiscovering": "המשך לגלות",
+    "filters": "מסננים",
+    "age": "טווח גילאים",
+    "distance": "מרחק"
+  },
+  "chat": {
+    "title": "הודעות",
+    "noMessages": "אין עדיין הודעות",
+    "startConversation": "התחל שיחה עם הקשרים שלך",
+    "typePlaceholder": "כתוב הודעה...",
+    "send": "שלח",
+    "online": "מחובר",
+    "offline": "לא מחובר",
+    "lastSeen": "נראה לאחרונה {time}"
+  },
+  "groups": {
+    "title": "קבוצות",
+    "create": "צור קבוצה",
+    "discover": "גלה קבוצות",
+    "myGroups": "הקבוצות שלי",
+    "join": "הצטרף",
+    "leave": "עזוב",
+    "members": "חברים",
+    "noGroups": "לא נמצאו קבוצות",
+    "form": {
+      "name": "שם הקבוצה",
+      "description": "תיאור",
+      "category": "קטגוריה",
+      "isPublic": "קבוצה ציבורית",
+      "uploadImage": "העלה תמונת קבוצה"
+    }
+  },
+  "profile": {
+    "title": "פרופיל",
+    "editProfile": "ערוך פרופיל",
+    "settings": "הגדרות",
+    "myEvents": "האירועים שלי",
+    "myGroups": "הקבוצות שלי",
+    "connections": "קשרים",
+    "bio": "אודות",
+    "interests": "תחומי עניין",
+    "location": "מיקום",
+    "memberSince": "חבר/ה מאז {date}"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "language": "שפה",
+    "notifications": "התראות",
+    "privacy": "פרטיות",
+    "deleteAccount": "מחק חשבון",
+    "deleteConfirm": "האם את/ה בטוח/ה שברצונך למחוק את החשבון? לא ניתן לבטל פעולה זו."
+  },
+  "footer": {
+    "about": "אודות",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "contact": "צור קשר",
+    "copyright": "© {year} מיטרה. כל הזכויות שמורות."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "error": "Något gick fel",
+    "retry": "Försök igen",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "share": "Dela",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "skip": "Hoppa över",
+    "done": "Klart",
+    "search": "Sök",
+    "filter": "Filtrera",
+    "all": "Alla",
+    "none": "Inga",
+    "or": "eller"
+  },
+  "landing": {
+    "tagline": "Där Iran Kommer Till Liv",
+    "subtitle": "Anslut med människor, upptäck evenemang och bygg meningsfulla vänskaper över Iran och diasporan.",
+    "getStarted": "Kom igång",
+    "learnMore": "Läs mer",
+    "features": {
+      "events": {
+        "title": "Upptäck & Skapa Evenemang",
+        "description": "Hitta spännande evenemang nära dig eller arrangera dina egna träffar."
+      },
+      "people": {
+        "title": "Träffa Människor I Närheten",
+        "description": "Anslut med likasinnade som delar dina intressen och passioner."
+      },
+      "chat": {
+        "title": "Realtidsmeddelanden",
+        "description": "Håll kontakten med dina nya vänner genom snabbmeddelanden och gruppchatt."
+      },
+      "groups": {
+        "title": "Gå Med I Communities",
+        "description": "Hitta din stam i intressebaserade grupper och bygg bestående kontakter."
+      }
+    },
+    "howItWorks": {
+      "title": "Så Fungerar Det",
+      "step1": {
+        "title": "Skapa Din Profil",
+        "description": "Registrera dig och berätta om dig själv och dina intressen."
+      },
+      "step2": {
+        "title": "Upptäck & Anslut",
+        "description": "Hitta evenemang, grupper och människor som matchar din stil."
+      },
+      "step3": {
+        "title": "Träffas & Njut",
+        "description": "Delta i evenemang, skaffa vänner och skapa oförglömliga minnen."
+      }
+    }
+  },
+  "auth": {
+    "login": "Logga In",
+    "register": "Registrera",
+    "logout": "Logga Ut",
+    "continueWithGoogle": "Fortsätt med Google",
+    "continueWithApple": "Fortsätt med Apple",
+    "continueWithEmail": "Fortsätt med E-post",
+    "email": "E-post",
+    "password": "Lösenord",
+    "confirmPassword": "Bekräfta Lösenord",
+    "forgotPassword": "Glömt Lösenord?",
+    "noAccount": "Har du inget konto?",
+    "hasAccount": "Har du redan ett konto?",
+    "termsAgreement": "Genom att registrera dig godkänner du våra användarvillkor och integritetspolicy."
+  },
+  "onboarding": {
+    "welcome": "Välkommen till Meetra!",
+    "profilePicture": {
+      "title": "Lägg Till En Profilbild",
+      "subtitle": "Hjälp andra att känna igen dig"
+    },
+    "name": {
+      "title": "Vad Heter Du?",
+      "placeholder": "Ditt visningsnamn"
+    },
+    "location": {
+      "title": "Var Befinner Du Dig?",
+      "subtitle": "Detta hjälper oss visa evenemang och människor nära dig",
+      "selectCity": "Välj din stad"
+    },
+    "interests": {
+      "title": "Vad Är Du Intresserad Av?",
+      "subtitle": "Välj dina intressen för att hitta likasinnade",
+      "music": "Musik",
+      "sports": "Sport",
+      "art": "Konst & Kultur",
+      "cooking": "Matlagning",
+      "gaming": "Gaming",
+      "travel": "Resor",
+      "photography": "Fotografi",
+      "tech": "Teknik",
+      "fitness": "Träning",
+      "movies": "Film",
+      "books": "Böcker",
+      "fashion": "Mode",
+      "nature": "Natur",
+      "nightlife": "Nattliv"
+    },
+    "birthday": {
+      "title": "När Fyller Du År?",
+      "subtitle": "Du måste vara 18+ för att använda Meetra"
+    }
+  },
+  "nav": {
+    "feed": "Hem",
+    "discover": "Upptäck",
+    "createEvent": "Skapa",
+    "chat": "Chatt",
+    "profile": "Profil"
+  },
+  "feed": {
+    "title": "Ditt Flöde",
+    "empty": "Inget här än. Börja utforska!",
+    "nearbyEvents": "Evenemang Nära Dig",
+    "newPeople": "Nya Människor",
+    "groupActivity": "Gruppaktivitet"
+  },
+  "events": {
+    "title": "Evenemang",
+    "create": "Skapa Evenemang",
+    "discover": "Upptäck Evenemang",
+    "nearby": "I Närheten",
+    "upcoming": "Kommande",
+    "past": "Tidigare",
+    "myEvents": "Mina Evenemang",
+    "going": "Deltar",
+    "interested": "Intresserad",
+    "participants": "deltagare",
+    "noEvents": "Inga evenemang hittades",
+    "form": {
+      "title": "Evenemangsnamn",
+      "description": "Beskrivning",
+      "date": "Datum & Tid",
+      "location": "Plats",
+      "category": "Kategori",
+      "maxParticipants": "Max Deltagare",
+      "isPublic": "Offentligt Evenemang",
+      "uploadImage": "Ladda Upp Omslagsbild"
+    },
+    "categories": {
+      "party": "Fest",
+      "concert": "Konsert",
+      "sport": "Sport",
+      "meetup": "Träff",
+      "culture": "Kultur",
+      "food": "Mat & Dryck",
+      "outdoor": "Utomhus",
+      "networking": "Nätverkande",
+      "workshop": "Workshop",
+      "other": "Övrigt"
+    }
+  },
+  "discover": {
+    "title": "Upptäck Människor",
+    "connect": "Anslut",
+    "pass": "Passera",
+    "match": "Det är en Match!",
+    "matchMessage": "Du och {name} är nu anslutna. Starta en konversation!",
+    "sendMessage": "Skicka Meddelande",
+    "keepDiscovering": "Fortsätt Upptäcka",
+    "filters": "Filter",
+    "age": "Åldersintervall",
+    "distance": "Avstånd"
+  },
+  "chat": {
+    "title": "Meddelanden",
+    "noMessages": "Inga meddelanden än",
+    "startConversation": "Starta en konversation med dina kontakter",
+    "typePlaceholder": "Skriv ett meddelande...",
+    "send": "Skicka",
+    "online": "Online",
+    "offline": "Offline",
+    "lastSeen": "Senast sedd {time}"
+  },
+  "groups": {
+    "title": "Grupper",
+    "create": "Skapa Grupp",
+    "discover": "Upptäck Grupper",
+    "myGroups": "Mina Grupper",
+    "join": "Gå Med",
+    "leave": "Lämna",
+    "members": "medlemmar",
+    "noGroups": "Inga grupper hittades",
+    "form": {
+      "name": "Gruppnamn",
+      "description": "Beskrivning",
+      "category": "Kategori",
+      "isPublic": "Offentlig Grupp",
+      "uploadImage": "Ladda Upp Gruppbild"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "editProfile": "Redigera Profil",
+    "settings": "Inställningar",
+    "myEvents": "Mina Evenemang",
+    "myGroups": "Mina Grupper",
+    "connections": "Kontakter",
+    "bio": "Bio",
+    "interests": "Intressen",
+    "location": "Plats",
+    "memberSince": "Medlem sedan {date}"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "language": "Språk",
+    "notifications": "Notifikationer",
+    "privacy": "Integritet",
+    "deleteAccount": "Ta Bort Konto",
+    "deleteConfirm": "Är du säker på att du vill ta bort ditt konto? Denna åtgärd kan inte ångras."
+  },
+  "footer": {
+    "about": "Om Oss",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "contact": "Kontakt",
+    "copyright": "© {year} Meetra. Alla rättigheter förbehållna."
+  }
+}

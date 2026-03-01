@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "share": "Partager",
+    "back": "Retour",
+    "next": "Suivant",
+    "skip": "Passer",
+    "done": "Terminé",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "all": "Tous",
+    "none": "Aucun",
+    "or": "ou"
+  },
+  "landing": {
+    "tagline": "Là Où l'Iran Prend Vie",
+    "subtitle": "Connectez-vous avec des gens, découvrez des événements et construisez des amitiés significatives à travers l'Iran et la diaspora.",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "features": {
+      "events": {
+        "title": "Découvrez & Créez des Événements",
+        "description": "Trouvez des événements passionnants près de chez vous ou organisez vos propres rassemblements."
+      },
+      "people": {
+        "title": "Rencontrez des Gens Près de Vous",
+        "description": "Connectez-vous avec des personnes partageant vos intérêts et passions."
+      },
+      "chat": {
+        "title": "Messagerie en Temps Réel",
+        "description": "Restez connecté avec vos nouveaux amis grâce à la messagerie instantanée et aux discussions de groupe."
+      },
+      "groups": {
+        "title": "Rejoignez des Communautés",
+        "description": "Trouvez votre tribu dans des groupes basés sur vos intérêts et créez des liens durables."
+      }
+    },
+    "howItWorks": {
+      "title": "Comment Ça Marche",
+      "step1": {
+        "title": "Créez Votre Profil",
+        "description": "Inscrivez-vous et parlez-nous de vous et de vos intérêts."
+      },
+      "step2": {
+        "title": "Découvrez & Connectez",
+        "description": "Trouvez des événements, des groupes et des personnes qui vous correspondent."
+      },
+      "step3": {
+        "title": "Rencontrez & Profitez",
+        "description": "Participez à des événements, faites-vous des amis et créez des souvenirs inoubliables."
+      }
+    }
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "Inscription",
+    "logout": "Déconnexion",
+    "continueWithGoogle": "Continuer avec Google",
+    "continueWithApple": "Continuer avec Apple",
+    "continueWithEmail": "Continuer avec Email",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "noAccount": "Pas encore de compte?",
+    "hasAccount": "Déjà un compte?",
+    "termsAgreement": "En vous inscrivant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité."
+  },
+  "onboarding": {
+    "welcome": "Bienvenue sur Meetra!",
+    "profilePicture": {
+      "title": "Ajoutez une Photo de Profil",
+      "subtitle": "Aidez les autres à vous reconnaître"
+    },
+    "name": {
+      "title": "Quel Est Votre Nom?",
+      "placeholder": "Votre nom d'affichage"
+    },
+    "location": {
+      "title": "Où Êtes-Vous?",
+      "subtitle": "Cela nous aide à vous montrer les événements et personnes proches",
+      "selectCity": "Sélectionnez votre ville"
+    },
+    "interests": {
+      "title": "Qu'Est-Ce Qui Vous Intéresse?",
+      "subtitle": "Sélectionnez vos intérêts pour trouver des personnes similaires",
+      "music": "Musique",
+      "sports": "Sport",
+      "art": "Art & Culture",
+      "cooking": "Cuisine",
+      "gaming": "Jeux Vidéo",
+      "travel": "Voyage",
+      "photography": "Photographie",
+      "tech": "Technologie",
+      "fitness": "Fitness",
+      "movies": "Films",
+      "books": "Livres",
+      "fashion": "Mode",
+      "nature": "Nature",
+      "nightlife": "Vie Nocturne"
+    },
+    "birthday": {
+      "title": "Quelle Est Votre Date de Naissance?",
+      "subtitle": "Vous devez avoir 18 ans ou plus pour utiliser Meetra"
+    }
+  },
+  "nav": {
+    "feed": "Accueil",
+    "discover": "Découvrir",
+    "createEvent": "Créer",
+    "chat": "Messages",
+    "profile": "Profil"
+  },
+  "feed": {
+    "title": "Votre Fil",
+    "empty": "Rien ici pour l'instant. Commencez à explorer!",
+    "nearbyEvents": "Événements Près de Vous",
+    "newPeople": "Nouvelles Personnes",
+    "groupActivity": "Activité des Groupes"
+  },
+  "events": {
+    "title": "Événements",
+    "create": "Créer un Événement",
+    "discover": "Découvrir les Événements",
+    "nearby": "À Proximité",
+    "upcoming": "À Venir",
+    "past": "Passés",
+    "myEvents": "Mes Événements",
+    "going": "J'y vais",
+    "interested": "Intéressé",
+    "participants": "participants",
+    "noEvents": "Aucun événement trouvé",
+    "form": {
+      "title": "Titre de l'Événement",
+      "description": "Description",
+      "date": "Date et Heure",
+      "location": "Lieu",
+      "category": "Catégorie",
+      "maxParticipants": "Participants Max",
+      "isPublic": "Événement Public",
+      "uploadImage": "Télécharger une Image"
+    },
+    "categories": {
+      "party": "Fête",
+      "concert": "Concert",
+      "sport": "Sport",
+      "meetup": "Rencontre",
+      "culture": "Culture",
+      "food": "Gastronomie",
+      "outdoor": "Plein Air",
+      "networking": "Networking",
+      "workshop": "Atelier",
+      "other": "Autre"
+    }
+  },
+  "discover": {
+    "title": "Découvrir des Personnes",
+    "connect": "Connecter",
+    "pass": "Passer",
+    "match": "C'est un Match!",
+    "matchMessage": "Vous et {name} êtes maintenant connectés. Démarrez une conversation!",
+    "sendMessage": "Envoyer un Message",
+    "keepDiscovering": "Continuer à Découvrir",
+    "filters": "Filtres",
+    "age": "Tranche d'Âge",
+    "distance": "Distance"
+  },
+  "chat": {
+    "title": "Messages",
+    "noMessages": "Pas encore de messages",
+    "startConversation": "Démarrez une conversation avec vos connexions",
+    "typePlaceholder": "Tapez un message...",
+    "send": "Envoyer",
+    "online": "En Ligne",
+    "offline": "Hors Ligne",
+    "lastSeen": "Vu il y a {time}"
+  },
+  "groups": {
+    "title": "Groupes",
+    "create": "Créer un Groupe",
+    "discover": "Découvrir les Groupes",
+    "myGroups": "Mes Groupes",
+    "join": "Rejoindre",
+    "leave": "Quitter",
+    "members": "membres",
+    "noGroups": "Aucun groupe trouvé",
+    "form": {
+      "name": "Nom du Groupe",
+      "description": "Description",
+      "category": "Catégorie",
+      "isPublic": "Groupe Public",
+      "uploadImage": "Télécharger l'Image du Groupe"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "editProfile": "Modifier le Profil",
+    "settings": "Paramètres",
+    "myEvents": "Mes Événements",
+    "myGroups": "Mes Groupes",
+    "connections": "Connexions",
+    "bio": "Bio",
+    "interests": "Intérêts",
+    "location": "Lieu",
+    "memberSince": "Membre depuis {date}"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "privacy": "Confidentialité",
+    "deleteAccount": "Supprimer le Compte",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer votre compte? Cette action est irréversible."
+  },
+  "footer": {
+    "about": "À Propos",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "contact": "Contact",
+    "copyright": "© {year} Meetra. Tous droits réservés."
+  }
+}

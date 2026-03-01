@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "error": "Er ging iets mis",
+    "retry": "Opnieuw proberen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "share": "Delen",
+    "back": "Terug",
+    "next": "Volgende",
+    "skip": "Overslaan",
+    "done": "Klaar",
+    "search": "Zoeken",
+    "filter": "Filter",
+    "all": "Alles",
+    "none": "Geen",
+    "or": "of"
+  },
+  "landing": {
+    "tagline": "Waar Iran Tot Leven Komt",
+    "subtitle": "Verbind met mensen, ontdek evenementen en bouw betekenisvolle vriendschappen door Iran en de diaspora.",
+    "getStarted": "Aan de Slag",
+    "learnMore": "Meer Info",
+    "features": {
+      "events": {
+        "title": "Ontdek & Maak Evenementen",
+        "description": "Vind spannende evenementen bij jou in de buurt of organiseer je eigen bijeenkomsten."
+      },
+      "people": {
+        "title": "Ontmoet Mensen in de Buurt",
+        "description": "Verbind met gelijkgestemden die jouw interesses en passies delen."
+      },
+      "chat": {
+        "title": "Realtime Berichten",
+        "description": "Blijf verbonden met je nieuwe vrienden via instant messaging en groepschats."
+      },
+      "groups": {
+        "title": "Word Lid van Communities",
+        "description": "Vind je stam in interesse-gebaseerde groepen en bouw duurzame connecties."
+      }
+    },
+    "howItWorks": {
+      "title": "Hoe Het Werkt",
+      "step1": {
+        "title": "Maak Je Profiel",
+        "description": "Meld je aan en vertel ons over jezelf en je interesses."
+      },
+      "step2": {
+        "title": "Ontdek & Verbind",
+        "description": "Vind evenementen, groepen en mensen die bij je passen."
+      },
+      "step3": {
+        "title": "Ontmoet & Geniet",
+        "description": "Neem deel aan evenementen, maak vrienden en creëer onvergetelijke herinneringen."
+      }
+    }
+  },
+  "auth": {
+    "login": "Inloggen",
+    "register": "Registreren",
+    "logout": "Uitloggen",
+    "continueWithGoogle": "Doorgaan met Google",
+    "continueWithApple": "Doorgaan met Apple",
+    "continueWithEmail": "Doorgaan met Email",
+    "email": "Email",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig Wachtwoord",
+    "forgotPassword": "Wachtwoord Vergeten?",
+    "noAccount": "Nog geen account?",
+    "hasAccount": "Al een account?",
+    "termsAgreement": "Door je te registreren ga je akkoord met onze Gebruiksvoorwaarden en Privacybeleid."
+  },
+  "onboarding": {
+    "welcome": "Welkom bij Meetra!",
+    "profilePicture": {
+      "title": "Voeg een Profielfoto Toe",
+      "subtitle": "Help anderen je te herkennen"
+    },
+    "name": {
+      "title": "Hoe Heet Je?",
+      "placeholder": "Je weergavenaam"
+    },
+    "location": {
+      "title": "Waar Ben Je?",
+      "subtitle": "Dit helpt ons om evenementen en mensen in de buurt te tonen",
+      "selectCity": "Selecteer je stad"
+    },
+    "interests": {
+      "title": "Waar Ben Je In Geïnteresseerd?",
+      "subtitle": "Selecteer je interesses om gelijkgestemden te vinden",
+      "music": "Muziek",
+      "sports": "Sport",
+      "art": "Kunst & Cultuur",
+      "cooking": "Koken",
+      "gaming": "Gaming",
+      "travel": "Reizen",
+      "photography": "Fotografie",
+      "tech": "Technologie",
+      "fitness": "Fitness",
+      "movies": "Films",
+      "books": "Boeken",
+      "fashion": "Mode",
+      "nature": "Natuur",
+      "nightlife": "Nachtleven"
+    },
+    "birthday": {
+      "title": "Wanneer Ben Je Jarig?",
+      "subtitle": "Je moet 18+ zijn om Meetra te gebruiken"
+    }
+  },
+  "nav": {
+    "feed": "Home",
+    "discover": "Ontdekken",
+    "createEvent": "Maken",
+    "chat": "Chat",
+    "profile": "Profiel"
+  },
+  "feed": {
+    "title": "Je Feed",
+    "empty": "Nog niets hier. Begin met ontdekken!",
+    "nearbyEvents": "Evenementen in de Buurt",
+    "newPeople": "Nieuwe Mensen",
+    "groupActivity": "Groepsactiviteit"
+  },
+  "events": {
+    "title": "Evenementen",
+    "create": "Evenement Maken",
+    "discover": "Evenementen Ontdekken",
+    "nearby": "In de Buurt",
+    "upcoming": "Aankomend",
+    "past": "Afgelopen",
+    "myEvents": "Mijn Evenementen",
+    "going": "Ik Ga",
+    "interested": "Geïnteresseerd",
+    "participants": "deelnemers",
+    "noEvents": "Geen evenementen gevonden",
+    "form": {
+      "title": "Evenementnaam",
+      "description": "Beschrijving",
+      "date": "Datum & Tijd",
+      "location": "Locatie",
+      "category": "Categorie",
+      "maxParticipants": "Max Deelnemers",
+      "isPublic": "Openbaar Evenement",
+      "uploadImage": "Upload Omslagfoto"
+    },
+    "categories": {
+      "party": "Feest",
+      "concert": "Concert",
+      "sport": "Sport",
+      "meetup": "Meetup",
+      "culture": "Cultuur",
+      "food": "Eten & Drinken",
+      "outdoor": "Buiten",
+      "networking": "Netwerken",
+      "workshop": "Workshop",
+      "other": "Overig"
+    }
+  },
+  "discover": {
+    "title": "Ontdek Mensen",
+    "connect": "Verbinden",
+    "pass": "Doorgaan",
+    "match": "Het is een Match!",
+    "matchMessage": "Jij en {name} zijn nu verbonden. Start een gesprek!",
+    "sendMessage": "Stuur Bericht",
+    "keepDiscovering": "Blijf Ontdekken",
+    "filters": "Filters",
+    "age": "Leeftijdsbereik",
+    "distance": "Afstand"
+  },
+  "chat": {
+    "title": "Berichten",
+    "noMessages": "Nog geen berichten",
+    "startConversation": "Start een gesprek met je connecties",
+    "typePlaceholder": "Typ een bericht...",
+    "send": "Versturen",
+    "online": "Online",
+    "offline": "Offline",
+    "lastSeen": "Laatst gezien {time}"
+  },
+  "groups": {
+    "title": "Groepen",
+    "create": "Groep Maken",
+    "discover": "Groepen Ontdekken",
+    "myGroups": "Mijn Groepen",
+    "join": "Deelnemen",
+    "leave": "Verlaten",
+    "members": "leden",
+    "noGroups": "Geen groepen gevonden",
+    "form": {
+      "name": "Groepsnaam",
+      "description": "Beschrijving",
+      "category": "Categorie",
+      "isPublic": "Openbare Groep",
+      "uploadImage": "Upload Groepsafbeelding"
+    }
+  },
+  "profile": {
+    "title": "Profiel",
+    "editProfile": "Profiel Bewerken",
+    "settings": "Instellingen",
+    "myEvents": "Mijn Evenementen",
+    "myGroups": "Mijn Groepen",
+    "connections": "Connecties",
+    "bio": "Bio",
+    "interests": "Interesses",
+    "location": "Locatie",
+    "memberSince": "Lid sinds {date}"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "notifications": "Meldingen",
+    "privacy": "Privacy",
+    "deleteAccount": "Account Verwijderen",
+    "deleteConfirm": "Weet je zeker dat je je account wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+  },
+  "footer": {
+    "about": "Over Ons",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "contact": "Contact",
+    "copyright": "© {year} Meetra. Alle rechten voorbehouden."
+  }
+}

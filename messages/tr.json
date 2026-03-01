@@ -1,0 +1,228 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir şeyler yanlış gitti",
+    "retry": "Tekrar dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "share": "Paylaş",
+    "back": "Geri",
+    "next": "İleri",
+    "skip": "Atla",
+    "done": "Tamam",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+    "or": "veya"
+  },
+  "landing": {
+    "tagline": "İran'ın Canlandığı Yer",
+    "subtitle": "İnsanlarla bağlantı kur, etkinlikleri keşfet ve İran ile diaspora genelinde anlamlı dostluklar kur.",
+    "getStarted": "Başla",
+    "learnMore": "Daha Fazla Bilgi",
+    "features": {
+      "events": {
+        "title": "Etkinlikleri Keşfet ve Oluştur",
+        "description": "Yakınındaki heyecan verici etkinlikleri bul veya kendi buluşmalarını düzenle."
+      },
+      "people": {
+        "title": "Yakınındaki İnsanlarla Tanış",
+        "description": "İlgi alanlarını ve tutkularını paylaşan benzer düşünen insanlarla bağlantı kur."
+      },
+      "chat": {
+        "title": "Anlık Mesajlaşma",
+        "description": "Anlık mesajlaşma ve grup sohbetleri aracılığıyla yeni arkadaşlarınla bağlantıda kal."
+      },
+      "groups": {
+        "title": "Topluluklara Katıl",
+        "description": "İlgi alanına dayalı gruplarda kabileni bul ve kalıcı bağlantılar kur."
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl Çalışır",
+      "step1": {
+        "title": "Profilini Oluştur",
+        "description": "Kaydol ve bize kendin ve ilgi alanların hakkında bilgi ver."
+      },
+      "step2": {
+        "title": "Keşfet ve Bağlan",
+        "description": "Sana uyan etkinlikleri, grupları ve insanları bul."
+      },
+      "step3": {
+        "title": "Buluş ve Eğlen",
+        "description": "Etkinliklere katıl, arkadaşlar edin ve unutulmaz anılar yarat."
+      }
+    }
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "logout": "Çıkış Yap",
+    "continueWithGoogle": "Google ile Devam Et",
+    "continueWithApple": "Apple ile Devam Et",
+    "continueWithEmail": "E-posta ile Devam Et",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "forgotPassword": "Şifreni mi unuttun?",
+    "noAccount": "Hesabın yok mu?",
+    "hasAccount": "Zaten hesabın var mı?",
+    "termsAgreement": "Kaydolarak, Kullanım Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz."
+  },
+  "onboarding": {
+    "welcome": "Meetra'ya Hoş Geldiniz!",
+    "profilePicture": {
+      "title": "Profil Fotoğrafı Ekle",
+      "subtitle": "Başkalarının seni tanımasına yardımcı ol"
+    },
+    "name": {
+      "title": "Adın Ne?",
+      "placeholder": "Görünen adın"
+    },
+    "location": {
+      "title": "Neredesin?",
+      "subtitle": "Bu, yakınındaki etkinlikleri ve insanları göstermemize yardımcı olur",
+      "selectCity": "Şehrini seç"
+    },
+    "interests": {
+      "title": "Nelere İlgi Duyuyorsun?",
+      "subtitle": "Benzer düşünen insanları bulmak için ilgi alanlarını seç",
+      "music": "Müzik",
+      "sports": "Spor",
+      "art": "Sanat ve Kültür",
+      "cooking": "Yemek",
+      "gaming": "Oyun",
+      "travel": "Seyahat",
+      "photography": "Fotoğrafçılık",
+      "tech": "Teknoloji",
+      "fitness": "Fitness",
+      "movies": "Film",
+      "books": "Kitap",
+      "fashion": "Moda",
+      "nature": "Doğa",
+      "nightlife": "Gece Hayatı"
+    },
+    "birthday": {
+      "title": "Doğum Günün Ne Zaman?",
+      "subtitle": "Meetra'yı kullanmak için 18 yaşından büyük olmalısın"
+    }
+  },
+  "nav": {
+    "feed": "Ana Sayfa",
+    "discover": "Keşfet",
+    "createEvent": "Oluştur",
+    "chat": "Sohbet",
+    "profile": "Profil"
+  },
+  "feed": {
+    "title": "Akışın",
+    "empty": "Henüz burada bir şey yok. Keşfetmeye başla!",
+    "nearbyEvents": "Yakınındaki Etkinlikler",
+    "newPeople": "Yeni İnsanlar",
+    "groupActivity": "Grup Aktivitesi"
+  },
+  "events": {
+    "title": "Etkinlikler",
+    "create": "Etkinlik Oluştur",
+    "discover": "Etkinlikleri Keşfet",
+    "nearby": "Yakında",
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş",
+    "myEvents": "Etkinliklerim",
+    "going": "Gidiyorum",
+    "interested": "İlgileniyorum",
+    "participants": "katılımcı",
+    "noEvents": "Etkinlik bulunamadı",
+    "form": {
+      "title": "Etkinlik Adı",
+      "description": "Açıklama",
+      "date": "Tarih ve Saat",
+      "location": "Konum",
+      "category": "Kategori",
+      "maxParticipants": "Maks. Katılımcı",
+      "isPublic": "Herkese Açık Etkinlik",
+      "uploadImage": "Kapak Resmi Yükle"
+    },
+    "categories": {
+      "party": "Parti",
+      "concert": "Konser",
+      "sport": "Spor",
+      "meetup": "Buluşma",
+      "culture": "Kültür",
+      "food": "Yiyecek ve İçecek",
+      "outdoor": "Açık Hava",
+      "networking": "Networking",
+      "workshop": "Atölye",
+      "other": "Diğer"
+    }
+  },
+  "discover": {
+    "title": "İnsanları Keşfet",
+    "connect": "Bağlan",
+    "pass": "Geç",
+    "match": "Eşleşme!",
+    "matchMessage": "Sen ve {name} artık bağlandınız. Sohbete başla!",
+    "sendMessage": "Mesaj Gönder",
+    "keepDiscovering": "Keşfetmeye Devam Et",
+    "filters": "Filtreler",
+    "age": "Yaş Aralığı",
+    "distance": "Mesafe"
+  },
+  "chat": {
+    "title": "Mesajlar",
+    "noMessages": "Henüz mesaj yok",
+    "startConversation": "Bağlantılarınla bir sohbet başlat",
+    "typePlaceholder": "Mesaj yaz...",
+    "send": "Gönder",
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "lastSeen": "Son görülme {time}"
+  },
+  "groups": {
+    "title": "Gruplar",
+    "create": "Grup Oluştur",
+    "discover": "Grupları Keşfet",
+    "myGroups": "Gruplarım",
+    "join": "Katıl",
+    "leave": "Ayrıl",
+    "members": "üye",
+    "noGroups": "Grup bulunamadı",
+    "form": {
+      "name": "Grup Adı",
+      "description": "Açıklama",
+      "category": "Kategori",
+      "isPublic": "Herkese Açık Grup",
+      "uploadImage": "Grup Resmi Yükle"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "editProfile": "Profili Düzenle",
+    "settings": "Ayarlar",
+    "myEvents": "Etkinliklerim",
+    "myGroups": "Gruplarım",
+    "connections": "Bağlantılar",
+    "bio": "Hakkımda",
+    "interests": "İlgi Alanları",
+    "location": "Konum",
+    "memberSince": "{date} tarihinden beri üye"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "notifications": "Bildirimler",
+    "privacy": "Gizlilik",
+    "deleteAccount": "Hesabı Sil",
+    "deleteConfirm": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "footer": {
+    "about": "Hakkımızda",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "contact": "İletişim",
+    "copyright": "© {year} Meetra. Tüm hakları saklıdır."
+  }
+}
