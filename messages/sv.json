@@ -16,45 +16,71 @@
     "filter": "Filtrera",
     "all": "Alla",
     "none": "Inga",
-    "or": "eller"
+    "or": "eller",
+    "worldwide": "Världen över",
+    "inIran": "I Iran",
+    "members": "medlemmar"
   },
   "landing": {
-    "tagline": "Där Iran Kommer Till Liv",
-    "subtitle": "Anslut med människor, upptäck evenemang och bygg meningsfulla vänskaper över Iran och diasporan.",
+    "tagline": "Världen Möter Iran",
+    "subtitle": "Anslut med människor i och från Iran – för vänskap, kultur, affärer och äventyr.",
+    "heroDescription": "Oavsett om du är i Teheran, LA, Berlin eller Dubai – hitta iranier världen över eller upptäck Iran som icke-iranier.",
+    "ctaIranian": "Jag är iranier",
+    "ctaExplorer": "Jag vill upptäcka Iran",
     "getStarted": "Kom igång",
     "learnMore": "Läs mer",
     "features": {
+      "title": "Varför Meetra?",
+      "subtitle": "En kulturell bro som förbinder Iran med världen",
+      "globalCommunity": {
+        "title": "Global Iran-community",
+        "description": "Hitta iranier i din stad eller anslut med lokala i Teheran, Isfahan och Shiraz."
+      },
+      "culturalBridge": {
+        "title": "Kulturell Bro",
+        "description": "Icke-iranier träffar iranier: språkpartners, resetips, affärskontakter och vänskap."
+      },
       "events": {
-        "title": "Upptäck & Skapa Evenemang",
-        "description": "Hitta spännande evenemang nära dig eller arrangera dina egna träffar."
+        "title": "Evenemang & Träffar",
+        "description": "Nowruz i Berlin, Tech Talks i Teheran, Konserter i LA – upptäck och skapa evenemang världen över."
       },
-      "people": {
-        "title": "Träffa Människor I Närheten",
-        "description": "Anslut med likasinnade som delar dina intressen och passioner."
+      "connect": {
+        "title": "Anslut Direkt",
+        "description": "Chatt, grupper och communities baserade på intressen och städer."
       },
-      "chat": {
-        "title": "Realtidsmeddelanden",
-        "description": "Håll kontakten med dina nya vänner genom snabbmeddelanden och gruppchatt."
-      },
-      "groups": {
-        "title": "Gå Med I Communities",
-        "description": "Hitta din stam i intressebaserade grupper och bygg bestående kontakter."
+      "cityHubs": {
+        "title": "Stadshubbar",
+        "description": "Varje stad har sin egen community: Teheran, Los Angeles, Berlin, Dubai, Toronto, London."
       }
+    },
+    "stats": {
+      "iranPopulation": "Människor i Iran",
+      "diaspora": "Iranier Världen Över",
+      "community": "En Community, Inga Gränser"
     },
     "howItWorks": {
       "title": "Så Fungerar Det",
       "step1": {
         "title": "Skapa Din Profil",
-        "description": "Registrera dig och berätta om dig själv och dina intressen."
+        "description": "Berätta för oss vem du är och vad du är intresserad av."
       },
       "step2": {
-        "title": "Upptäck & Anslut",
-        "description": "Hitta evenemang, grupper och människor som matchar din stil."
+        "title": "Upptäck",
+        "description": "Hitta människor, evenemang och communities i din stad eller världen över."
       },
       "step3": {
-        "title": "Träffas & Njut",
-        "description": "Delta i evenemang, skaffa vänner och skapa oförglömliga minnen."
+        "title": "Anslut",
+        "description": "Chatta, träffas, upplev Iran var du än är."
       }
+    },
+    "cityHubs": {
+      "title": "Stadshubbar",
+      "subtitle": "Gå med i din lokala community och anslut med iranier och Iran-entusiaster i din stad."
+    },
+    "cta": {
+      "title": "Redo att Ansluta?",
+      "subtitle": "Gå med tusentals människor som bygger broar mellan Iran och världen.",
+      "button": "Gå Med i Meetra Nu"
     }
   },
   "auth": {
@@ -81,6 +107,35 @@
     "name": {
       "title": "Vad Heter Du?",
       "placeholder": "Ditt visningsnamn"
+    },
+    "identity": {
+      "title": "Berätta om dig själv",
+      "subtitle": "Detta hjälper oss att koppla dig med rätt personer",
+      "iranian": "Jag är iranier",
+      "halfIranian": "Jag är halv-iranier",
+      "explorer": "Jag är intresserad av Iran"
+    },
+    "seeking": {
+      "title": "Vad letar du efter?",
+      "subtitle": "Välj allt som stämmer",
+      "friendships": "Vänskap",
+      "business": "Affärskontakter",
+      "languagePartners": "Språkpartners",
+      "travelBuddies": "Reskamrater",
+      "events": "Evenemang & Träffar",
+      "dating": "Dejting"
+    },
+    "languages": {
+      "title": "Språk du talar",
+      "subtitle": "Välj allt som stämmer",
+      "farsi": "Farsi",
+      "english": "Engelska",
+      "german": "Tyska",
+      "french": "Franska",
+      "arabic": "Arabiska",
+      "turkish": "Turkiska",
+      "spanish": "Spanska",
+      "other": "Annat"
     },
     "location": {
       "title": "Var Befinner Du Dig?",
@@ -116,13 +171,18 @@
     "createEvent": "Skapa",
     "chat": "Chatt",
     "profile": "Profil",
-    "logout": "Logga Ut"
+    "logout": "Logga Ut",
+    "hubs": "Stadshubbar"
   },
   "feed": {
     "title": "Ditt Flöde",
     "empty": "Inget här än. Börja utforska!",
     "nearbyEvents": "Evenemang Nära Dig",
+    "eventsInIran": "Evenemang i Iran",
+    "eventsWorldwide": "Evenemang Världen Över",
     "newPeople": "Nya Människor",
+    "newPeopleNearby": "Människor Nära Dig",
+    "newPeopleWorldwide": "Människor Världen Över",
     "groupActivity": "Gruppaktivitet"
   },
   "events": {
@@ -130,6 +190,8 @@
     "create": "Skapa Evenemang",
     "discover": "Upptäck Evenemang",
     "nearby": "I Närheten",
+    "inIran": "I Iran",
+    "worldwide": "Världen Över",
     "upcoming": "Kommande",
     "past": "Tidigare",
     "myEvents": "Mina Evenemang",
@@ -157,11 +219,13 @@
       "outdoor": "Utomhus",
       "networking": "Nätverkande",
       "workshop": "Workshop",
+      "nowruz": "Nowruz",
       "other": "Övrigt"
     }
   },
   "discover": {
     "title": "Upptäck Människor",
+    "subtitle": "Hitta iranier och Iran-entusiaster världen över",
     "connect": "Anslut",
     "pass": "Passera",
     "match": "Det är en Match!",
@@ -170,7 +234,21 @@
     "keepDiscovering": "Fortsätt Upptäcka",
     "filters": "Filter",
     "age": "Åldersintervall",
-    "distance": "Avstånd"
+    "distance": "Avstånd",
+    "tabs": {
+      "nearby": "I Närheten",
+      "inIran": "I Iran",
+      "worldwide": "Världen Över"
+    },
+    "filterBy": {
+      "city": "Stad",
+      "country": "Land",
+      "identity": "Identitet",
+      "iranians": "Iranier",
+      "explorers": "Iran-entusiaster",
+      "interests": "Intressen",
+      "languages": "Språk"
+    }
   },
   "chat": {
     "title": "Meddelanden",
@@ -199,6 +277,16 @@
       "uploadImage": "Ladda Upp Gruppbild"
     }
   },
+  "hubs": {
+    "title": "Stadshubbar",
+    "subtitle": "Hitta din lokala community",
+    "events": "Evenemang",
+    "people": "Människor",
+    "groups": "Grupper",
+    "join": "Gå Med i Hub",
+    "joined": "Ansluten",
+    "topCities": "Toppstäder"
+  },
   "profile": {
     "title": "Profil",
     "editProfile": "Redigera Profil",
@@ -209,6 +297,9 @@
     "bio": "Bio",
     "interests": "Intressen",
     "location": "Plats",
+    "identity": "Identitet",
+    "seeking": "Letar efter",
+    "languages": "Språk",
     "memberSince": "Medlem sedan {date}"
   },
   "settings": {

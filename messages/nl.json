@@ -16,45 +16,71 @@
     "filter": "Filter",
     "all": "Alles",
     "none": "Geen",
-    "or": "of"
+    "or": "of",
+    "worldwide": "Wereldwijd",
+    "inIran": "In Iran",
+    "members": "leden"
   },
   "landing": {
-    "tagline": "Waar Iran Tot Leven Komt",
-    "subtitle": "Verbind met mensen, ontdek evenementen en bouw betekenisvolle vriendschappen door Iran en de diaspora.",
+    "tagline": "De Wereld Ontmoet Iran",
+    "subtitle": "Verbind met mensen in en uit Iran – voor vriendschappen, cultuur, zaken en avontuur.",
+    "heroDescription": "Of je nu in Teheran, LA, Berlijn of Dubai bent – vind Iraniërs wereldwijd of ontdek Iran als niet-Iraniër.",
+    "ctaIranian": "Ik ben Iraniër",
+    "ctaExplorer": "Ik wil Iran Ontdekken",
     "getStarted": "Aan de Slag",
     "learnMore": "Meer Info",
     "features": {
+      "title": "Waarom Meetra?",
+      "subtitle": "Een culturele brug die Iran verbindt met de wereld",
+      "globalCommunity": {
+        "title": "Wereldwijde Iran Gemeenschap",
+        "description": "Vind Iraniërs in jouw stad of verbind met locals in Teheran, Isfahan en Shiraz."
+      },
+      "culturalBridge": {
+        "title": "Culturele Brug",
+        "description": "Niet-Iraniërs ontmoeten Iraniërs: taalpartners, reistips, zakelijke contacten en vriendschappen."
+      },
       "events": {
-        "title": "Ontdek & Maak Evenementen",
-        "description": "Vind spannende evenementen bij jou in de buurt of organiseer je eigen bijeenkomsten."
+        "title": "Evenementen & Ontmoetingen",
+        "description": "Nowruz in Berlijn, Tech Talks in Teheran, Concerten in LA – ontdek en creëer evenementen wereldwijd."
       },
-      "people": {
-        "title": "Ontmoet Mensen in de Buurt",
-        "description": "Verbind met gelijkgestemden die jouw interesses en passies delen."
+      "connect": {
+        "title": "Direct Verbinden",
+        "description": "Chat, groepen en gemeenschappen gebaseerd op interesses en steden."
       },
-      "chat": {
-        "title": "Realtime Berichten",
-        "description": "Blijf verbonden met je nieuwe vrienden via instant messaging en groepschats."
-      },
-      "groups": {
-        "title": "Word Lid van Communities",
-        "description": "Vind je stam in interesse-gebaseerde groepen en bouw duurzame connecties."
+      "cityHubs": {
+        "title": "Stads Hubs",
+        "description": "Elke stad heeft zijn eigen gemeenschap: Teheran, Los Angeles, Berlijn, Dubai, Toronto, Londen."
       }
+    },
+    "stats": {
+      "iranPopulation": "Mensen in Iran",
+      "diaspora": "Iraniërs Wereldwijd",
+      "community": "Eén Gemeenschap, Geen Grenzen"
     },
     "howItWorks": {
       "title": "Hoe Het Werkt",
       "step1": {
         "title": "Maak Je Profiel",
-        "description": "Meld je aan en vertel ons over jezelf en je interesses."
+        "description": "Vertel ons wie je bent en wat je interesseert."
       },
       "step2": {
-        "title": "Ontdek & Verbind",
-        "description": "Vind evenementen, groepen en mensen die bij je passen."
+        "title": "Ontdek",
+        "description": "Vind mensen, evenementen en gemeenschappen in jouw stad of wereldwijd."
       },
       "step3": {
-        "title": "Ontmoet & Geniet",
-        "description": "Neem deel aan evenementen, maak vrienden en creëer onvergetelijke herinneringen."
+        "title": "Verbind",
+        "description": "Chat, ontmoet, beleef Iran vanaf elke plek."
       }
+    },
+    "cityHubs": {
+      "title": "Stads Hubs",
+      "subtitle": "Word lid van je lokale gemeenschap en verbind met Iraniërs en Iran-enthousiastelingen in jouw stad."
+    },
+    "cta": {
+      "title": "Klaar om te Verbinden?",
+      "subtitle": "Sluit je aan bij duizenden mensen die bruggen bouwen tussen Iran en de wereld.",
+      "button": "Word Nu Lid van Meetra"
     }
   },
   "auth": {
@@ -81,6 +107,35 @@
     "name": {
       "title": "Hoe Heet Je?",
       "placeholder": "Je weergavenaam"
+    },
+    "identity": {
+      "title": "Vertel ons over jezelf",
+      "subtitle": "Dit helpt ons je te verbinden met de juiste mensen",
+      "iranian": "Ik ben Iraniër",
+      "halfIranian": "Ik ben Half-Iraniër",
+      "explorer": "Ik ben geïnteresseerd in Iran"
+    },
+    "seeking": {
+      "title": "Wat zoek je?",
+      "subtitle": "Selecteer alles wat van toepassing is",
+      "friendships": "Vriendschappen",
+      "business": "Zakelijke Contacten",
+      "languagePartners": "Taalpartners",
+      "travelBuddies": "Reisgenoten",
+      "events": "Evenementen & Ontmoetingen",
+      "dating": "Daten"
+    },
+    "languages": {
+      "title": "Talen die je spreekt",
+      "subtitle": "Selecteer alles wat van toepassing is",
+      "farsi": "Farsi",
+      "english": "Engels",
+      "german": "Duits",
+      "french": "Frans",
+      "arabic": "Arabisch",
+      "turkish": "Turks",
+      "spanish": "Spaans",
+      "other": "Anders"
     },
     "location": {
       "title": "Waar Ben Je?",
@@ -115,14 +170,19 @@
     "discover": "Ontdekken",
     "createEvent": "Maken",
     "chat": "Chat",
-    "profile": "Profil",
-    "logout": "Uitloggen"
+    "profile": "Profiel",
+    "logout": "Uitloggen",
+    "hubs": "Stads Hubs"
   },
   "feed": {
     "title": "Je Feed",
     "empty": "Nog niets hier. Begin met ontdekken!",
     "nearbyEvents": "Evenementen in de Buurt",
+    "eventsInIran": "Evenementen in Iran",
+    "eventsWorldwide": "Evenementen Wereldwijd",
     "newPeople": "Nieuwe Mensen",
+    "newPeopleNearby": "Mensen in de Buurt",
+    "newPeopleWorldwide": "Mensen Wereldwijd",
     "groupActivity": "Groepsactiviteit"
   },
   "events": {
@@ -130,6 +190,8 @@
     "create": "Evenement Maken",
     "discover": "Evenementen Ontdekken",
     "nearby": "In de Buurt",
+    "inIran": "In Iran",
+    "worldwide": "Wereldwijd",
     "upcoming": "Aankomend",
     "past": "Afgelopen",
     "myEvents": "Mijn Evenementen",
@@ -157,11 +219,13 @@
       "outdoor": "Buiten",
       "networking": "Netwerken",
       "workshop": "Workshop",
+      "nowruz": "Nowruz",
       "other": "Overig"
     }
   },
   "discover": {
     "title": "Ontdek Mensen",
+    "subtitle": "Vind Iraniërs en Iran-enthousiastelingen wereldwijd",
     "connect": "Verbinden",
     "pass": "Doorgaan",
     "match": "Het is een Match!",
@@ -170,7 +234,21 @@
     "keepDiscovering": "Blijf Ontdekken",
     "filters": "Filters",
     "age": "Leeftijdsbereik",
-    "distance": "Afstand"
+    "distance": "Afstand",
+    "tabs": {
+      "nearby": "In de Buurt",
+      "inIran": "In Iran",
+      "worldwide": "Wereldwijd"
+    },
+    "filterBy": {
+      "city": "Stad",
+      "country": "Land",
+      "identity": "Identiteit",
+      "iranians": "Iraniërs",
+      "explorers": "Iran-enthousiastelingen",
+      "interests": "Interesses",
+      "languages": "Talen"
+    }
   },
   "chat": {
     "title": "Berichten",
@@ -199,6 +277,16 @@
       "uploadImage": "Upload Groepsafbeelding"
     }
   },
+  "hubs": {
+    "title": "Stads Hubs",
+    "subtitle": "Vind je lokale gemeenschap",
+    "events": "Evenementen",
+    "people": "Mensen",
+    "groups": "Groepen",
+    "join": "Word Lid van Hub",
+    "joined": "Lid Geworden",
+    "topCities": "Topsteden"
+  },
   "profile": {
     "title": "Profiel",
     "editProfile": "Profiel Bewerken",
@@ -209,6 +297,9 @@
     "bio": "Bio",
     "interests": "Interesses",
     "location": "Locatie",
+    "identity": "Identiteit",
+    "seeking": "Zoekt",
+    "languages": "Talen",
     "memberSince": "Lid sinds {date}"
   },
   "settings": {

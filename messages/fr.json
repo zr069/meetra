@@ -16,45 +16,71 @@
     "filter": "Filtrer",
     "all": "Tous",
     "none": "Aucun",
-    "or": "ou"
+    "or": "ou",
+    "worldwide": "Monde entier",
+    "inIran": "En Iran",
+    "members": "membres"
   },
   "landing": {
-    "tagline": "Là Où l'Iran Prend Vie",
-    "subtitle": "Connectez-vous avec des gens, découvrez des événements et construisez des amitiés significatives à travers l'Iran et la diaspora.",
+    "tagline": "Le Monde Rencontre l'Iran",
+    "subtitle": "Connectez-vous avec des personnes en Iran et d'Iran – pour l'amitié, la culture, les affaires et l'aventure.",
+    "heroDescription": "Que vous soyez à Téhéran, LA, Berlin ou Dubaï – trouvez des Iraniens dans le monde entier ou découvrez l'Iran en tant que non-Iranien.",
+    "ctaIranian": "Je suis Iranien(ne)",
+    "ctaExplorer": "Je veux Découvrir l'Iran",
     "getStarted": "Commencer",
     "learnMore": "En savoir plus",
     "features": {
+      "title": "Pourquoi Meetra?",
+      "subtitle": "Un pont culturel reliant l'Iran au monde",
+      "globalCommunity": {
+        "title": "Communauté Iranienne Mondiale",
+        "description": "Trouvez des Iraniens dans votre ville ou connectez-vous avec des locaux à Téhéran, Ispahan et Chiraz."
+      },
+      "culturalBridge": {
+        "title": "Pont Culturel",
+        "description": "Les non-Iraniens rencontrent les Iraniens: partenaires linguistiques, conseils de voyage, contacts d'affaires et amitiés."
+      },
       "events": {
-        "title": "Découvrez & Créez des Événements",
-        "description": "Trouvez des événements passionnants près de chez vous ou organisez vos propres rassemblements."
+        "title": "Événements & Rencontres",
+        "description": "Nowruz à Berlin, Tech Talks à Téhéran, Concerts à LA – découvrez et créez des événements dans le monde entier."
       },
-      "people": {
-        "title": "Rencontrez des Gens Près de Vous",
-        "description": "Connectez-vous avec des personnes partageant vos intérêts et passions."
+      "connect": {
+        "title": "Connectez Directement",
+        "description": "Chat, groupes et communautés basés sur les intérêts et les villes."
       },
-      "chat": {
-        "title": "Messagerie en Temps Réel",
-        "description": "Restez connecté avec vos nouveaux amis grâce à la messagerie instantanée et aux discussions de groupe."
-      },
-      "groups": {
-        "title": "Rejoignez des Communautés",
-        "description": "Trouvez votre tribu dans des groupes basés sur vos intérêts et créez des liens durables."
+      "cityHubs": {
+        "title": "Hubs Urbains",
+        "description": "Chaque ville a sa propre communauté: Téhéran, Los Angeles, Berlin, Dubaï, Toronto, Londres."
       }
+    },
+    "stats": {
+      "iranPopulation": "Personnes en Iran",
+      "diaspora": "Iraniens dans le Monde",
+      "community": "Une Communauté, Sans Frontières"
     },
     "howItWorks": {
       "title": "Comment Ça Marche",
       "step1": {
         "title": "Créez Votre Profil",
-        "description": "Inscrivez-vous et parlez-nous de vous et de vos intérêts."
+        "description": "Dites-nous qui vous êtes et ce qui vous intéresse."
       },
       "step2": {
-        "title": "Découvrez & Connectez",
-        "description": "Trouvez des événements, des groupes et des personnes qui vous correspondent."
+        "title": "Découvrez",
+        "description": "Trouvez des personnes, événements et communautés dans votre ville ou partout dans le monde."
       },
       "step3": {
-        "title": "Rencontrez & Profitez",
-        "description": "Participez à des événements, faites-vous des amis et créez des souvenirs inoubliables."
+        "title": "Connectez",
+        "description": "Chattez, rencontrez-vous, vivez l'Iran de n'importe où."
       }
+    },
+    "cityHubs": {
+      "title": "Hubs Urbains",
+      "subtitle": "Rejoignez votre communauté locale et connectez-vous avec des Iraniens et des passionnés de l'Iran dans votre ville."
+    },
+    "cta": {
+      "title": "Prêt à Vous Connecter?",
+      "subtitle": "Rejoignez des milliers de personnes qui construisent des ponts entre l'Iran et le monde.",
+      "button": "Rejoindre Meetra Maintenant"
     }
   },
   "auth": {
@@ -81,6 +107,35 @@
     "name": {
       "title": "Quel Est Votre Nom?",
       "placeholder": "Votre nom d'affichage"
+    },
+    "identity": {
+      "title": "Parlez-nous de vous",
+      "subtitle": "Cela nous aide à vous connecter avec les bonnes personnes",
+      "iranian": "Je suis Iranien(ne)",
+      "halfIranian": "Je suis Demi-Iranien(ne)",
+      "explorer": "Je m'intéresse à l'Iran"
+    },
+    "seeking": {
+      "title": "Que recherchez-vous?",
+      "subtitle": "Sélectionnez tout ce qui s'applique",
+      "friendships": "Amitiés",
+      "business": "Contacts Professionnels",
+      "languagePartners": "Partenaires Linguistiques",
+      "travelBuddies": "Compagnons de Voyage",
+      "events": "Événements & Rencontres",
+      "dating": "Rencontres Amoureuses"
+    },
+    "languages": {
+      "title": "Langues que vous parlez",
+      "subtitle": "Sélectionnez tout ce qui s'applique",
+      "farsi": "Farsi",
+      "english": "Anglais",
+      "german": "Allemand",
+      "french": "Français",
+      "arabic": "Arabe",
+      "turkish": "Turc",
+      "spanish": "Espagnol",
+      "other": "Autre"
     },
     "location": {
       "title": "Où Êtes-Vous?",
@@ -116,13 +171,18 @@
     "createEvent": "Créer",
     "chat": "Messages",
     "profile": "Profil",
-    "logout": "Déconnexion"
+    "logout": "Déconnexion",
+    "hubs": "Hubs Urbains"
   },
   "feed": {
     "title": "Votre Fil",
     "empty": "Rien ici pour l'instant. Commencez à explorer!",
     "nearbyEvents": "Événements Près de Vous",
+    "eventsInIran": "Événements en Iran",
+    "eventsWorldwide": "Événements dans le Monde",
     "newPeople": "Nouvelles Personnes",
+    "newPeopleNearby": "Personnes Près de Vous",
+    "newPeopleWorldwide": "Personnes dans le Monde",
     "groupActivity": "Activité des Groupes"
   },
   "events": {
@@ -130,6 +190,8 @@
     "create": "Créer un Événement",
     "discover": "Découvrir les Événements",
     "nearby": "À Proximité",
+    "inIran": "En Iran",
+    "worldwide": "Monde Entier",
     "upcoming": "À Venir",
     "past": "Passés",
     "myEvents": "Mes Événements",
@@ -157,11 +219,13 @@
       "outdoor": "Plein Air",
       "networking": "Networking",
       "workshop": "Atelier",
+      "nowruz": "Nowruz",
       "other": "Autre"
     }
   },
   "discover": {
     "title": "Découvrir des Personnes",
+    "subtitle": "Trouvez des Iraniens et des passionnés de l'Iran dans le monde entier",
     "connect": "Connecter",
     "pass": "Passer",
     "match": "C'est un Match!",
@@ -170,7 +234,21 @@
     "keepDiscovering": "Continuer à Découvrir",
     "filters": "Filtres",
     "age": "Tranche d'Âge",
-    "distance": "Distance"
+    "distance": "Distance",
+    "tabs": {
+      "nearby": "À Proximité",
+      "inIran": "En Iran",
+      "worldwide": "Monde Entier"
+    },
+    "filterBy": {
+      "city": "Ville",
+      "country": "Pays",
+      "identity": "Identité",
+      "iranians": "Iraniens",
+      "explorers": "Passionnés de l'Iran",
+      "interests": "Intérêts",
+      "languages": "Langues"
+    }
   },
   "chat": {
     "title": "Messages",
@@ -199,6 +277,16 @@
       "uploadImage": "Télécharger l'Image du Groupe"
     }
   },
+  "hubs": {
+    "title": "Hubs Urbains",
+    "subtitle": "Trouvez votre communauté locale",
+    "events": "Événements",
+    "people": "Personnes",
+    "groups": "Groupes",
+    "join": "Rejoindre le Hub",
+    "joined": "Rejoint",
+    "topCities": "Villes Principales"
+  },
   "profile": {
     "title": "Profil",
     "editProfile": "Modifier le Profil",
@@ -209,6 +297,9 @@
     "bio": "Bio",
     "interests": "Intérêts",
     "location": "Lieu",
+    "identity": "Identité",
+    "seeking": "Recherche",
+    "languages": "Langues",
     "memberSince": "Membre depuis {date}"
   },
   "settings": {

@@ -16,45 +16,71 @@
     "filter": "Filtrele",
     "all": "Tümü",
     "none": "Hiçbiri",
-    "or": "veya"
+    "or": "veya",
+    "worldwide": "Dünya Geneli",
+    "inIran": "İran'da",
+    "members": "üye"
   },
   "landing": {
-    "tagline": "İran'ın Canlandığı Yer",
-    "subtitle": "İnsanlarla bağlantı kur, etkinlikleri keşfet ve İran ile diaspora genelinde anlamlı dostluklar kur.",
+    "tagline": "Dünya İran'la Buluşuyor",
+    "subtitle": "İran'daki ve İran'dan insanlarla bağlantı kur – dostluklar, kültür, iş ve macera için.",
+    "heroDescription": "Tahran'da, LA'da, Berlin'de veya Dubai'de olsan da – dünya genelinde İranlıları bul veya İranlı olmayan biri olarak İran'ı keşfet.",
+    "ctaIranian": "Ben İranlıyım",
+    "ctaExplorer": "İran'ı Keşfetmek İstiyorum",
     "getStarted": "Başla",
     "learnMore": "Daha Fazla Bilgi",
     "features": {
+      "title": "Neden Meetra?",
+      "subtitle": "İran'ı dünyayla birleştiren kültürel bir köprü",
+      "globalCommunity": {
+        "title": "Küresel İran Topluluğu",
+        "description": "Şehrindeki İranlıları bul veya Tahran, İsfahan ve Şiraz'daki yerellerle bağlantı kur."
+      },
+      "culturalBridge": {
+        "title": "Kültürel Köprü",
+        "description": "İranlı olmayanlar İranlılarla tanışıyor: dil partnerleri, seyahat ipuçları, iş bağlantıları ve dostluklar."
+      },
       "events": {
-        "title": "Etkinlikleri Keşfet ve Oluştur",
-        "description": "Yakınındaki heyecan verici etkinlikleri bul veya kendi buluşmalarını düzenle."
+        "title": "Etkinlikler ve Buluşmalar",
+        "description": "Berlin'de Nevruz, Tahran'da teknoloji sohbetleri, LA'da konserler – dünya genelinde etkinlikleri keşfet ve oluştur."
       },
-      "people": {
-        "title": "Yakınındaki İnsanlarla Tanış",
-        "description": "İlgi alanlarını ve tutkularını paylaşan benzer düşünen insanlarla bağlantı kur."
+      "connect": {
+        "title": "Doğrudan Bağlan",
+        "description": "İlgi alanlarına ve şehirlere göre sohbet, gruplar ve topluluklar."
       },
-      "chat": {
-        "title": "Anlık Mesajlaşma",
-        "description": "Anlık mesajlaşma ve grup sohbetleri aracılığıyla yeni arkadaşlarınla bağlantıda kal."
-      },
-      "groups": {
-        "title": "Topluluklara Katıl",
-        "description": "İlgi alanına dayalı gruplarda kabileni bul ve kalıcı bağlantılar kur."
+      "cityHubs": {
+        "title": "Şehir Merkezleri",
+        "description": "Her şehrin kendi topluluğu var: Tahran, Los Angeles, Berlin, Dubai, Toronto, Londra."
       }
+    },
+    "stats": {
+      "iranPopulation": "İran'daki İnsanlar",
+      "diaspora": "Dünya Genelinde İranlılar",
+      "community": "Bir Topluluk, Sınır Yok"
     },
     "howItWorks": {
       "title": "Nasıl Çalışır",
       "step1": {
         "title": "Profilini Oluştur",
-        "description": "Kaydol ve bize kendin ve ilgi alanların hakkında bilgi ver."
+        "description": "Bize kim olduğunu ve nelere ilgi duyduğunu söyle."
       },
       "step2": {
-        "title": "Keşfet ve Bağlan",
-        "description": "Sana uyan etkinlikleri, grupları ve insanları bul."
+        "title": "Keşfet",
+        "description": "Şehrinde veya dünya genelinde insanları, etkinlikleri ve toplulukları bul."
       },
       "step3": {
-        "title": "Buluş ve Eğlen",
-        "description": "Etkinliklere katıl, arkadaşlar edin ve unutulmaz anılar yarat."
+        "title": "Bağlan",
+        "description": "Sohbet et, buluş, İran'ı her yerden deneyimle."
       }
+    },
+    "cityHubs": {
+      "title": "Şehir Merkezleri",
+      "subtitle": "Yerel topluluğuna katıl ve şehrindeki İranlılar ve İran meraklılarıyla bağlantı kur."
+    },
+    "cta": {
+      "title": "Bağlanmaya Hazır mısın?",
+      "subtitle": "İran ile dünya arasında köprüler kuran binlerce kişiye katıl.",
+      "button": "Şimdi Meetra'ya Katıl"
     }
   },
   "auth": {
@@ -81,6 +107,35 @@
     "name": {
       "title": "Adın Ne?",
       "placeholder": "Görünen adın"
+    },
+    "identity": {
+      "title": "Kendinden bahset",
+      "subtitle": "Bu, seni doğru insanlarla bağlamamıza yardımcı olur",
+      "iranian": "Ben İranlıyım",
+      "halfIranian": "Ben Yarı İranlıyım",
+      "explorer": "İran'la ilgileniyorum"
+    },
+    "seeking": {
+      "title": "Ne arıyorsun?",
+      "subtitle": "Geçerli olan tümünü seç",
+      "friendships": "Dostluklar",
+      "business": "İş Bağlantıları",
+      "languagePartners": "Dil Partnerleri",
+      "travelBuddies": "Seyahat Arkadaşları",
+      "events": "Etkinlikler ve Buluşmalar",
+      "dating": "Flört"
+    },
+    "languages": {
+      "title": "Konuştuğun diller",
+      "subtitle": "Geçerli olan tümünü seç",
+      "farsi": "Farsça",
+      "english": "İngilizce",
+      "german": "Almanca",
+      "french": "Fransızca",
+      "arabic": "Arapça",
+      "turkish": "Türkçe",
+      "spanish": "İspanyolca",
+      "other": "Diğer"
     },
     "location": {
       "title": "Neredesin?",
@@ -116,13 +171,18 @@
     "createEvent": "Oluştur",
     "chat": "Sohbet",
     "profile": "Profil",
-    "logout": "Çıkış Yap"
+    "logout": "Çıkış Yap",
+    "hubs": "Şehir Merkezleri"
   },
   "feed": {
     "title": "Akışın",
     "empty": "Henüz burada bir şey yok. Keşfetmeye başla!",
     "nearbyEvents": "Yakınındaki Etkinlikler",
+    "eventsInIran": "İran'daki Etkinlikler",
+    "eventsWorldwide": "Dünya Genelinde Etkinlikler",
     "newPeople": "Yeni İnsanlar",
+    "newPeopleNearby": "Yakınındaki İnsanlar",
+    "newPeopleWorldwide": "Dünya Genelinde İnsanlar",
     "groupActivity": "Grup Aktivitesi"
   },
   "events": {
@@ -130,6 +190,8 @@
     "create": "Etkinlik Oluştur",
     "discover": "Etkinlikleri Keşfet",
     "nearby": "Yakında",
+    "inIran": "İran'da",
+    "worldwide": "Dünya Geneli",
     "upcoming": "Yaklaşan",
     "past": "Geçmiş",
     "myEvents": "Etkinliklerim",
@@ -157,11 +219,13 @@
       "outdoor": "Açık Hava",
       "networking": "Networking",
       "workshop": "Atölye",
+      "nowruz": "Nevruz",
       "other": "Diğer"
     }
   },
   "discover": {
     "title": "İnsanları Keşfet",
+    "subtitle": "Dünya genelinde İranlıları ve İran meraklılarını bul",
     "connect": "Bağlan",
     "pass": "Geç",
     "match": "Eşleşme!",
@@ -170,7 +234,21 @@
     "keepDiscovering": "Keşfetmeye Devam Et",
     "filters": "Filtreler",
     "age": "Yaş Aralığı",
-    "distance": "Mesafe"
+    "distance": "Mesafe",
+    "tabs": {
+      "nearby": "Yakında",
+      "inIran": "İran'da",
+      "worldwide": "Dünya Geneli"
+    },
+    "filterBy": {
+      "city": "Şehir",
+      "country": "Ülke",
+      "identity": "Kimlik",
+      "iranians": "İranlılar",
+      "explorers": "İran Meraklıları",
+      "interests": "İlgi Alanları",
+      "languages": "Diller"
+    }
   },
   "chat": {
     "title": "Mesajlar",
@@ -199,6 +277,16 @@
       "uploadImage": "Grup Resmi Yükle"
     }
   },
+  "hubs": {
+    "title": "Şehir Merkezleri",
+    "subtitle": "Yerel topluluğunu bul",
+    "events": "Etkinlikler",
+    "people": "İnsanlar",
+    "groups": "Gruplar",
+    "join": "Merkeze Katıl",
+    "joined": "Katıldın",
+    "topCities": "En İyi Şehirler"
+  },
   "profile": {
     "title": "Profil",
     "editProfile": "Profili Düzenle",
@@ -209,6 +297,9 @@
     "bio": "Hakkımda",
     "interests": "İlgi Alanları",
     "location": "Konum",
+    "identity": "Kimlik",
+    "seeking": "Arıyor",
+    "languages": "Diller",
     "memberSince": "{date} tarihinden beri üye"
   },
   "settings": {
