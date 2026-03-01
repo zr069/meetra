@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { LanguageSwitcher } from '@/components/common/LanguageSwitcher';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -58,11 +57,10 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-[var(--border)] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[var(--text-secondary)] text-sm">
+        <div className="mt-12 pt-8 border-t border-[var(--border)]">
+          <p className="text-[var(--text-secondary)] text-sm text-center sm:text-start">
             {t('copyright', { year: currentYear })}
           </p>
-          <LanguageSwitcher />
         </div>
       </div>
     </footer>
