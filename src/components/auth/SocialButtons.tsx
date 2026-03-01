@@ -1,18 +1,24 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { createClient } from '@/lib/supabase/client';
 import { Button } from '@/components/ui/Button';
 
 export function SocialButtons() {
   const t = useTranslations('auth');
+  const locale = useLocale();
   const supabase = createClient();
+
+  const getRedirectUrl = () => {
+    const origin = window.location.origin;
+    return `${origin}/auth/callback?locale=${locale}`;
+  };
 
   const handleGoogleSignIn = async () => {
     await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: getRedirectUrl(),
       },
     });
   };
@@ -21,7 +27,7 @@ export function SocialButtons() {
     await supabase.auth.signInWithOAuth({
       provider: 'apple',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: getRedirectUrl(),
       },
     });
   };

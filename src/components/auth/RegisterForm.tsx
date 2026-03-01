@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/routing';
 import { createClient } from '@/lib/supabase/client';
 import { Button } from '@/components/ui/Button';
@@ -12,6 +12,7 @@ import { Link } from '@/i18n/routing';
 export function RegisterForm() {
   const t = useTranslations('auth');
   const tCommon = useTranslations('common');
+  const locale = useLocale();
   const router = useRouter();
   const supabase = createClient();
 
@@ -41,7 +42,7 @@ export function RegisterForm() {
       email,
       password,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback`,
+        emailRedirectTo: `${window.location.origin}/auth/callback?locale=${locale}`,
       },
     });
 
