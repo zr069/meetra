@@ -68,7 +68,7 @@ export function Sidebar() {
     <aside className="hidden md:flex flex-col w-64 bg-white border-e border-[var(--border)] fixed top-0 start-0 h-screen">
       {/* Logo */}
       <div className="p-6 border-b border-[var(--border)]">
-        <Link href="/feed">
+        <Link href="/feed" className="cursor-pointer transition-all duration-200 ease-in-out hover:opacity-80">
           <span className="text-2xl font-bold text-[var(--primary)]">MEETRA</span>
         </Link>
       </div>
@@ -83,10 +83,10 @@ export function Sidebar() {
               <li key={item.key}>
                 <Link
                   href={item.href}
-                  className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-colors
+                  className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ease-in-out cursor-pointer
                     ${isActive
                       ? 'bg-[var(--primary)]/10 text-[var(--primary)] font-medium'
-                      : 'text-[var(--text-secondary)] hover:bg-[var(--surface)]'
+                      : 'text-[var(--text-secondary)] hover:bg-[var(--surface)] hover:text-[var(--primary)]'
                     }
                   `}
                 >
@@ -104,7 +104,7 @@ export function Sidebar() {
         {/* Logout Button */}
         <button
           onClick={handleLogout}
-          className="flex items-center gap-3 px-4 py-3 rounded-lg transition-colors w-full text-[var(--text-secondary)] hover:bg-[var(--surface)] hover:text-[var(--error)]"
+          className="flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ease-in-out w-full text-[var(--text-secondary)] hover:bg-[var(--surface)] hover:text-[var(--error)] cursor-pointer active:scale-95"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />

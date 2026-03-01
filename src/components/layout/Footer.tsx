@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="inline-block">
+            <Link href="/" className="inline-block cursor-pointer transition-all duration-200 ease-in-out hover:opacity-80">
               <span className="text-2xl font-bold text-[var(--primary)]">MEETRA</span>
             </Link>
             <p className="mt-4 text-[var(--text-secondary)] max-w-md">
@@ -26,12 +26,12 @@ export function Footer() {
             <h3 className="font-semibold text-[var(--text-primary)] mb-4">Company</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/about" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors">
+                <Link href="/about" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer hover:underline">
                   {t('about')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors">
+                <Link href="/contact" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer hover:underline">
                   {t('contact')}
                 </Link>
               </li>
@@ -43,12 +43,12 @@ export function Footer() {
             <h3 className="font-semibold text-[var(--text-primary)] mb-4">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/privacy" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors">
+                <Link href="/privacy" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer hover:underline">
                   {t('privacy')}
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors">
+                <Link href="/terms" className="text-[var(--text-secondary)] hover:text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer hover:underline">
                   {t('terms')}
                 </Link>
               </li>

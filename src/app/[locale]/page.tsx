@@ -175,7 +175,7 @@ function FeaturesSection() {
           {features.map((feature, index) => (
             <div
               key={feature.key}
-              className="group p-8 rounded-2xl bg-[var(--surface)] hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[var(--border)]"
+              className="group p-8 rounded-2xl bg-[var(--surface)] hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-200 ease-in-out border border-transparent hover:border-[var(--border)]"
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-14 h-14 rounded-xl bg-[var(--primary)]/10 text-[var(--primary)] flex items-center justify-center group-hover:bg-[var(--primary)] group-hover:text-white transition-colors">
@@ -326,7 +326,7 @@ function CityHubsSection() {
             <Link
               key={city.name}
               href={`/hubs/${city.name.toLowerCase().replace(' ', '-')}`}
-              className="group p-4 sm:p-6 rounded-xl bg-[var(--surface)] hover:bg-white hover:shadow-lg transition-all border border-transparent hover:border-[var(--border)] text-center"
+              className="group p-4 sm:p-6 rounded-xl bg-[var(--surface)] hover:bg-white hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in-out border border-transparent hover:border-[var(--border)] text-center cursor-pointer"
             >
               <span className="text-3xl sm:text-4xl mb-2 block">{city.flag}</span>
               <h3 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--primary)] transition-colors">

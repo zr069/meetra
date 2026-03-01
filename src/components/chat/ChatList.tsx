@@ -49,8 +49,8 @@ export function ChatList() {
       <div className="divide-y divide-[var(--border)]">
         {mockConversations.length > 0 ? (
           mockConversations.map((conv) => (
-            <Link key={conv.id} href={`/chat/${conv.id}`}>
-              <div className="flex items-center gap-4 p-4 hover:bg-white transition-colors">
+            <Link key={conv.id} href={`/chat/${conv.id}`} className="block cursor-pointer">
+              <div className="flex items-center gap-4 p-4 hover:bg-white transition-all duration-200 ease-in-out hover:shadow-sm">
                 {/* Avatar */}
                 <div className="relative">
                   <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[var(--primary)]/30 to-[var(--secondary)]/30 flex items-center justify-center">

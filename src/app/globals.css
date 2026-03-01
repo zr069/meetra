@@ -84,9 +84,49 @@ body {
   outline-offset: 2px;
 }
 
+/* ===== GLOBAL INTERACTIVE ELEMENTS ===== */
+
+/* Cursor pointer for all clickable elements */
+button,
+a,
+[role="button"],
+[onclick],
+.clickable,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+select,
+label[for] {
+  cursor: pointer;
+}
+
+/* Disabled elements should not have pointer cursor */
+button:disabled,
+[disabled],
+.disabled {
+  cursor: not-allowed;
+}
+
+/* Global transition for interactive elements */
+button,
+a,
+[role="button"],
+.card,
+.interactive {
+  transition: all 0.2s ease-in-out;
+}
+
 /* Button base styles */
 .btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-all duration-200 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 cursor-pointer;
+}
+
+.btn:hover:not(:disabled) {
+  @apply scale-105;
+}
+
+.btn:active:not(:disabled) {
+  @apply scale-95;
 }
 
 .btn-primary {
@@ -103,7 +143,15 @@ body {
 
 /* Card styles */
 .card {
-  @apply rounded-xl bg-white border border-[var(--border)] shadow-sm;
+  @apply rounded-xl bg-white border border-[var(--border)] shadow-sm transition-all duration-200 ease-in-out;
+}
+
+.card-interactive {
+  @apply rounded-xl bg-white border border-[var(--border)] shadow-sm transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.card-interactive:hover {
+  @apply shadow-lg scale-[1.02];
 }
 
 /* Input styles */
@@ -118,4 +166,48 @@ body {
 
 .tag-primary {
   @apply bg-[var(--primary)]/10 text-[var(--primary)];
+}
+
+/* Navigation item styles */
+.nav-item {
+  @apply flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.nav-item:hover {
+  @apply bg-[var(--surface)] text-[var(--primary)];
+}
+
+.nav-item.active {
+  @apply bg-[var(--primary)]/10 text-[var(--primary)] font-medium;
+}
+
+/* Icon button styles */
+.icon-btn {
+  @apply p-2 rounded-lg transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.icon-btn:hover {
+  @apply bg-[var(--surface)] text-[var(--primary)];
+}
+
+.icon-btn:active {
+  @apply scale-95;
+}
+
+/* Link styles */
+.link {
+  @apply text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.link:hover {
+  @apply text-[var(--primary-hover)] underline;
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+  @apply w-full px-4 py-2 text-start text-sm transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.dropdown-item:hover {
+  @apply bg-[var(--surface)] text-[var(--primary)];
 }

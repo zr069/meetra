@@ -22,8 +22,8 @@ export function GroupCard({ group }: GroupCardProps) {
   const t = useTranslations('groups');
 
   return (
-    <Link href={`/groups/${group.id}`}>
-      <div className="bg-white rounded-xl overflow-hidden border border-[var(--border)] hover:shadow-lg transition-shadow h-full">
+    <Link href={`/groups/${group.id}`} className="block cursor-pointer">
+      <div className="bg-white rounded-xl overflow-hidden border border-[var(--border)] hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in-out h-full">
         {/* Image */}
         <div className="h-32 bg-gradient-to-br from-[var(--primary)]/20 to-[var(--secondary)]/20 flex items-center justify-center">
           {group.imageUrl ? (

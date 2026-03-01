@@ -35,7 +35,7 @@ export function LanguageSwitcher() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[var(--surface)] hover:bg-[var(--border)] transition-colors"
+        className="flex items-center gap-2 px-3 py-2 rounded-lg bg-[var(--surface)] hover:bg-[var(--border)] transition-all duration-200 ease-in-out cursor-pointer hover:scale-105 active:scale-95"
         aria-label="Select language"
       >
         <svg
@@ -72,7 +72,7 @@ export function LanguageSwitcher() {
               key={loc}
               onClick={() => handleLocaleChange(loc)}
               className={`
-                w-full px-4 py-2 text-start text-sm hover:bg-[var(--surface)] transition-colors
+                w-full px-4 py-2 text-start text-sm hover:bg-[var(--surface)] hover:text-[var(--primary)] transition-all duration-200 ease-in-out cursor-pointer
                 ${loc === locale ? 'text-[var(--primary)] font-medium bg-[var(--primary)]/5' : 'text-[var(--text-primary)]'}
               `}
             >

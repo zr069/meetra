@@ -88,20 +88,20 @@ export function GroupsContent() {
       <div className="flex gap-2 mb-6">
         <button
           onClick={() => setFilter('discover')}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ease-in-out cursor-pointer active:scale-95 ${
             filter === 'discover'
               ? 'bg-[var(--primary)] text-white'
-              : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)]'
+              : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
           }`}
         >
           {t('discover')}
         </button>
         <button
           onClick={() => setFilter('myGroups')}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ease-in-out cursor-pointer active:scale-95 ${
             filter === 'myGroups'
               ? 'bg-[var(--primary)] text-white'
-              : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)]'
+              : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
           }`}
         >
           {t('myGroups')}

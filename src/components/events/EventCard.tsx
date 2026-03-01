@@ -32,8 +32,8 @@ export function EventCard({ event }: EventCardProps) {
   };
 
   return (
-    <Link href={`/events/${event.id}`}>
-      <article className="bg-white rounded-xl overflow-hidden border border-[var(--border)] hover:shadow-lg transition-shadow">
+    <Link href={`/events/${event.id}`} className="block cursor-pointer">
+      <article className="bg-white rounded-xl overflow-hidden border border-[var(--border)] hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in-out">
         <div className="flex flex-col sm:flex-row">
           {/* Image */}
           <div className="sm:w-48 h-32 sm:h-auto bg-gradient-to-br from-[var(--primary)]/20 to-[var(--secondary)]/20 flex items-center justify-center flex-shrink-0">

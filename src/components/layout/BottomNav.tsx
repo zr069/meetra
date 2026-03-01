@@ -69,7 +69,7 @@ export function BottomNav() {
               <Link
                 key={item.key}
                 href={item.href}
-                className="flex flex-col items-center justify-center"
+                className="flex flex-col items-center justify-center cursor-pointer transition-all duration-200 ease-in-out hover:scale-110 active:scale-95"
               >
                 {item.icon(false)}
               </Link>
@@ -80,7 +80,7 @@ export function BottomNav() {
             <Link
               key={item.key}
               href={item.href}
-              className={`flex flex-col items-center justify-center gap-1 min-w-[64px] py-2
+              className={`flex flex-col items-center justify-center gap-1 min-w-[64px] py-2 cursor-pointer transition-all duration-200 ease-in-out hover:text-[var(--primary)] active:scale-95
                 ${isActive ? 'text-[var(--primary)]' : 'text-[var(--text-secondary)]'}
               `}
             >

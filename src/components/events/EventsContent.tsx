@@ -78,10 +78,10 @@ export function EventsContent() {
         <div className="flex bg-white rounded-lg border border-[var(--border)] p-1">
           <button
             onClick={() => setViewMode('list')}
-            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all duration-200 ease-in-out cursor-pointer active:scale-95 ${
               viewMode === 'list'
                 ? 'bg-[var(--primary)] text-white'
-                : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--surface)]'
             }`}
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -90,10 +90,10 @@ export function EventsContent() {
           </button>
           <button
             onClick={() => setViewMode('map')}
-            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all duration-200 ease-in-out cursor-pointer active:scale-95 ${
               viewMode === 'map'
                 ? 'bg-[var(--primary)] text-white'
-                : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--surface)]'
             }`}
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -107,10 +107,10 @@ export function EventsContent() {
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
+              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200 ease-in-out cursor-pointer active:scale-95 ${
                 filter === f
                   ? 'bg-[var(--primary)] text-white'
-                  : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)]'
+                  : 'bg-white text-[var(--text-secondary)] border border-[var(--border)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
               }`}
             >
               {t(f === 'all' ? 'title' : f)}

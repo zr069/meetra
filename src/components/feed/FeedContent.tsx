@@ -28,15 +28,15 @@ export function FeedContent() {
           <h2 className="text-lg font-semibold text-[var(--text-primary)]">
             {t('nearbyEvents')}
           </h2>
-          <Link href="/events" className="text-[var(--primary)] text-sm font-medium">
+          <Link href="/events" className="text-[var(--primary)] text-sm font-medium cursor-pointer transition-all duration-200 ease-in-out hover:text-[var(--primary-hover)] hover:underline">
             {tEvents('discover')} →
           </Link>
         </div>
 
         <div className="space-y-4">
           {nearbyEvents.map((event) => (
-            <Link key={event.id} href={`/events/${event.id}`}>
-              <div className="bg-white rounded-xl p-4 border border-[var(--border)] hover:shadow-md transition-shadow">
+            <Link key={event.id} href={`/events/${event.id}`} className="block cursor-pointer">
+              <div className="bg-white rounded-xl p-4 border border-[var(--border)] hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in-out">
                 <div className="flex items-start gap-4">
                   {/* Event Image Placeholder */}
                   <div className="w-20 h-20 rounded-lg bg-gradient-to-br from-[var(--primary)]/20 to-[var(--secondary)]/20 flex items-center justify-center flex-shrink-0">
@@ -72,15 +72,15 @@ export function FeedContent() {
           <h2 className="text-lg font-semibold text-[var(--text-primary)]">
             {t('newPeople')}
           </h2>
-          <Link href="/discover" className="text-[var(--primary)] text-sm font-medium">
+          <Link href="/discover" className="text-[var(--primary)] text-sm font-medium cursor-pointer transition-all duration-200 ease-in-out hover:text-[var(--primary-hover)] hover:underline">
             View All →
           </Link>
         </div>
 
         <div className="flex gap-4 overflow-x-auto pb-2 -mx-4 px-4">
           {[1, 2, 3, 4, 5].map((i) => (
-            <Link key={i} href={`/profile/${i}`}>
-              <div className="flex flex-col items-center min-w-[80px]">
+            <Link key={i} href={`/profile/${i}`} className="cursor-pointer">
+              <div className="flex flex-col items-center min-w-[80px] transition-all duration-200 ease-in-out hover:scale-105">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[var(--primary)]/30 to-[var(--secondary)]/30 flex items-center justify-center mb-2">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-[var(--primary)]">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
